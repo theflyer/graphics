@@ -1,1 +1,1 @@
-dependencies: /Users/asif/Downloads/CS472.skel/qrc_CS472.cpp
+dependencies: /Users/asif/Documents/graphics/CS472.skel/qrc_CS472.cpp

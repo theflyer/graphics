@@ -13,598 +13,598 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Qt Qmake";
 			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/asif/Downloads/CS472.skel/ -f CS472.xcodeproj/qt_makeqmake.mak";
+			shellScript = "make -C /Users/asif/Documents/graphics/CS472.skel/ -f CS472.xcodeproj/qt_makeqmake.mak";
 			showEnvVarsInLog = "0";
 		};
-		09503DC7AFD2F68E7C2C6353 = {
+		82E06193BAA6F1F8AE0422D9 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/main.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/main.cpp";
 			name = "main.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		51BB2AB5623E52A991A70D1F = {
-			fileRef = "09503DC7AFD2F68E7C2C6353";
+		52AF7812E684A4EC092D9602 = {
+			fileRef = "82E06193BAA6F1F8AE0422D9";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		FCDEF47E89AC4D35E86632E9 = {
+		81C47C815EEE965D5D12FB57 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/MainWindow.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/MainWindow.cpp";
 			name = "MainWindow.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		B2998866DDAE1DF8FDE5436F = {
-			fileRef = "FCDEF47E89AC4D35E86632E9";
+		4429FBBFBB787ABBBA1D86EA = {
+			fileRef = "81C47C815EEE965D5D12FB57";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		95B927781EFFFE7710258862 = {
+		7E3D149FC3AE854649EB3DDF = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/HW.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/HW.cpp";
 			name = "HW.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		ED8BD1FC18B48C3591C187D8 = {
-			fileRef = "95B927781EFFFE7710258862";
+		D9B83C8244F4D17DBCACAAE8 = {
+			fileRef = "7E3D149FC3AE854649EB3DDF";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		69B3320D27314F9DE8D78F7A = {
+		55CA059AA7BDDC63FDAF0C30 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/dummy.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/dummy.cpp";
 			name = "dummy.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		7396F7B370DEADF25D031940 = {
-			fileRef = "69B3320D27314F9DE8D78F7A";
+		D0635B0B68C9D501B0A98703 = {
+			fileRef = "55CA059AA7BDDC63FDAF0C30";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		D14178FD88A29C7B9CB4BA87 = {
+		414792D1F21E21FB1EA59746 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw0/HW0a.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw0/HW0a.cpp";
 			name = "HW0a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		05A6F7DFB54DF08AA8DBED8F = {
-			fileRef = "D14178FD88A29C7B9CB4BA87";
+		D0DEA206A28B2934C7E1C1D5 = {
+			fileRef = "414792D1F21E21FB1EA59746";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		743182E40AD582D187C8719E = {
+		03D789074CADA778179599E7 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw0/HW0b.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw0/HW0b.cpp";
 			name = "HW0b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		EDC9625A0036077ADA1F2FE5 = {
-			fileRef = "743182E40AD582D187C8719E";
+		EC9021944A20B0273B233162 = {
+			fileRef = "03D789074CADA778179599E7";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		FF50342DBEE5ABEB07DFE6A7 = {
+		1EECCF6DB32A487157FD2E4D = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw0/HW0c.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw0/HW0c.cpp";
 			name = "HW0c.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		E6BA284917A6F3B1D66EFDE2 = {
-			fileRef = "FF50342DBEE5ABEB07DFE6A7";
+		F90157E2CB391A8EC1DF36DC = {
+			fileRef = "1EECCF6DB32A487157FD2E4D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		B14C63F95C16EFB3DD23CA4A = {
+		A609FF5F664F91287228EFB3 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw1/HW1a.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw1/HW1a.cpp";
 			name = "HW1a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		873722B1F1B19C1C4746CDFB = {
-			fileRef = "B14C63F95C16EFB3DD23CA4A";
+		E6DCFE36C808EB11A8A6D5FC = {
+			fileRef = "A609FF5F664F91287228EFB3";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		96798665F16A2E040CFDB246 = {
+		DEE52341752DF7280BB8FC91 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw1/HW1b.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw1/HW1b.cpp";
 			name = "HW1b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		257FA4389174F49A2C5DD1E8 = {
-			fileRef = "96798665F16A2E040CFDB246";
+		1248F15E4DFD99BFF2710CBD = {
+			fileRef = "DEE52341752DF7280BB8FC91";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		3860778C0522868FFD8B6115 = {
+		AB9B1E4345101479DE0F6280 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw2/HW2a.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw2/HW2a.cpp";
 			name = "HW2a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		2C927ECA6A80E0F6A487B0DE = {
-			fileRef = "3860778C0522868FFD8B6115";
+		1BDA8E5580BD26299CD1E31A = {
+			fileRef = "AB9B1E4345101479DE0F6280";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		A33A2A14C5178A6DB97A988F = {
+		F94DEBC4F1FDC3F17CE6691A = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw2/HW2b.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw2/HW2b.cpp";
 			name = "HW2b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		5D7A7D4CE5FB18524232E8FA = {
-			fileRef = "A33A2A14C5178A6DB97A988F";
+		1F04CDC668CDF0C78EA2065D = {
+			fileRef = "F94DEBC4F1FDC3F17CE6691A";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		65B8467683FB0A51B719BAAF = {
+		9765C36EC11F896148EF7083 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Cube.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Cube.cpp";
 			name = "Cube.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		820A93E723984F98D472230C = {
-			fileRef = "65B8467683FB0A51B719BAAF";
+		9DB3DD6E6A0EBB64D2C665C8 = {
+			fileRef = "9765C36EC11F896148EF7083";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		6A03182C13AA7B0D01485359 = {
+		7F120AAB6E3805922E2257B0 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Sphere.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Sphere.cpp";
 			name = "Sphere.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		C2970AB8DE8D85334D96665F = {
-			fileRef = "6A03182C13AA7B0D01485359";
+		693015D5E843907909A10144 = {
+			fileRef = "7F120AAB6E3805922E2257B0";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		75CE2ADEBFE261E5238D5BFE = {
+		BE2CB4E875A1E872B37F64F9 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Cylinder.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Cylinder.cpp";
 			name = "Cylinder.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		A4A2EAF797E456C53A4C22DD = {
-			fileRef = "75CE2ADEBFE261E5238D5BFE";
+		493C7ACA2D1F1923A221B1D5 = {
+			fileRef = "BE2CB4E875A1E872B37F64F9";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		F5D6BAE6414A40C6E8412F1D = {
+		078F75C969F1033B7B46B75A = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Cone.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Cone.cpp";
 			name = "Cone.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		52BD11036DC97E1FA4F8311B = {
-			fileRef = "F5D6BAE6414A40C6E8412F1D";
+		AA0A6FA46A13387DE56CA9E4 = {
+			fileRef = "078F75C969F1033B7B46B75A";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		E60B6D8A54043499BBBB40F9 = {
+		134521FFB1F8687B829C236D = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Scene.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Scene.cpp";
 			name = "Scene.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		13907F10D1878F4D3B98B899 = {
-			fileRef = "E60B6D8A54043499BBBB40F9";
+		F5341C7D290D22A91351CB11 = {
+			fileRef = "134521FFB1F8687B829C236D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		A916B81CE9EB6CCA06FC03A6 = {
+		1E287C450D1F2BC746B18649 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/lighting/Light.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/lighting/Light.cpp";
 			name = "Light.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		2FA3194AA9F80E21C672A78A = {
-			fileRef = "A916B81CE9EB6CCA06FC03A6";
+		58814E58119DF436B124498F = {
+			fileRef = "1E287C450D1F2BC746B18649";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		88EC3AF4F1A5461C3B182626 = {
+		E66E2C41C904F74D83D90D3D = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/camera/Camera.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/camera/Camera.cpp";
 			name = "Camera.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		C2D74D507311721C2224CE23 = {
-			fileRef = "88EC3AF4F1A5461C3B182626";
+		4E25379ECD2CD652D47B5714 = {
+			fileRef = "E66E2C41C904F74D83D90D3D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		A93CD385E3790855509E77FE = {
+		64D1DBFDB8634F9F1D22D51E = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/CS472.icns";
+			path = "/Users/asif/Documents/graphics/CS472.skel/CS472.icns";
 			name = "CS472.icns";
 			sourceTree = "<absolute>";
 		};
-		FDE171DE429495DC3D10F1CE = {
-			fileRef = "A93CD385E3790855509E77FE";
+		8CDF88BF38B0D9C730613E45 = {
+			fileRef = "64D1DBFDB8634F9F1D22D51E";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		7C3A00F5A124988D9491FD74 = {
+		179EF304369CF41F2FBF5219 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/qrc_CS472.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/qrc_CS472.cpp";
 			name = "qrc_CS472.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		7987BE183FEBFBA20B3C043F = {
-			fileRef = "7C3A00F5A124988D9491FD74";
+		945EC3F8EB427095E3B6621F = {
+			fileRef = "179EF304369CF41F2FBF5219";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		AD11745375B2656D208356C5 = {
+		602EB94F4FB006FD1531B479 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_MainWindow.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_MainWindow.cpp";
 			name = "moc_MainWindow.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		41996162FEBCDEE9ABFA7EFE = {
-			fileRef = "AD11745375B2656D208356C5";
+		0E101E2850BB1BA0C7EDB4A7 = {
+			fileRef = "602EB94F4FB006FD1531B479";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		73C327A19A2FBA4679648857 = {
+		CC66F13BB1282AF5D21E6243 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_dummy.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_dummy.cpp";
 			name = "moc_dummy.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		9D2F940DB1A6CBB8D988EC4A = {
-			fileRef = "73C327A19A2FBA4679648857";
+		4DA9B116D14128CBDCB65EB6 = {
+			fileRef = "CC66F13BB1282AF5D21E6243";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		53C074E2F705F37E6169B6F3 = {
+		EB2FFEFC14F3834FCD7A241E = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_HW0a.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_HW0a.cpp";
 			name = "moc_HW0a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		4D16E959C0B1171EA8078928 = {
-			fileRef = "53C074E2F705F37E6169B6F3";
+		F41020C01ED5367AB36542E4 = {
+			fileRef = "EB2FFEFC14F3834FCD7A241E";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		275849FF02141A831B90F56B = {
+		DC122A2A92A774B595703DE8 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_HW0b.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_HW0b.cpp";
 			name = "moc_HW0b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		E802C04FF040836007DBA549 = {
-			fileRef = "275849FF02141A831B90F56B";
+		C3FEFDA5E456DCEABDFA2D2E = {
+			fileRef = "DC122A2A92A774B595703DE8";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		F0FD6CCB1C08090277AEACD8 = {
+		F7A9A869B83B4D39C6DA5004 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_HW0c.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_HW0c.cpp";
 			name = "moc_HW0c.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		2A1344B4D6BAEB9F7FE3DBB3 = {
-			fileRef = "F0FD6CCB1C08090277AEACD8";
+		6AD9DC51162E8C0579B9E35D = {
+			fileRef = "F7A9A869B83B4D39C6DA5004";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		67809941FAA7E25A750F51ED = {
+		B246502C12C16C8A670DCDBC = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_HW1a.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_HW1a.cpp";
 			name = "moc_HW1a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		D09B0C9DA1A8B37BA339DCE7 = {
-			fileRef = "67809941FAA7E25A750F51ED";
+		2DD6CCA9F6ACF7EE96F37B90 = {
+			fileRef = "B246502C12C16C8A670DCDBC";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		59064781135D8B06584C7A1E = {
+		180EA1E373CF932CF5E74B31 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_HW1b.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_HW1b.cpp";
 			name = "moc_HW1b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		637CC75245456832468C7FBE = {
-			fileRef = "59064781135D8B06584C7A1E";
+		D8C39300DAD2BD97172595DC = {
+			fileRef = "180EA1E373CF932CF5E74B31";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		22D58F95B3E9617B678560D6 = {
+		404A1AA8B3054F244BA80DC4 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_HW2a.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_HW2a.cpp";
 			name = "moc_HW2a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		94B26E59C2F1A51E1B889757 = {
-			fileRef = "22D58F95B3E9617B678560D6";
+		F93FAF060E852521EDC9326A = {
+			fileRef = "404A1AA8B3054F244BA80DC4";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		3FB1802B15D5F2A83EFB8E76 = {
+		4545B13D1265A7F7E7013680 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/moc_HW2b.cpp";
+			path = "/Users/asif/Documents/graphics/CS472.skel/moc_HW2b.cpp";
 			name = "moc_HW2b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		DF89E9C1D612A996E3E554E8 = {
-			fileRef = "3FB1802B15D5F2A83EFB8E76";
+		5352AB24D4C2FBF5D3AE0FA5 = {
+			fileRef = "4545B13D1265A7F7E7013680";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		8DDEC2854396478451EC6988 = {
+		3941B1EDB39684DBD651C02F = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/MainWindow.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/MainWindow.h";
 			name = "MainWindow.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		970D3595FFF5EF1A73BB47AB = {
+		2FC0FBA423DF5DF2AD8E4751 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/HW.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/HW.h";
 			name = "HW.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		43A6DEFCE1886C7030D04744 = {
+		2ACE50C9B901B0B49C600ACB = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/dummy.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/dummy.h";
 			name = "dummy.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		A9044D3C96AB6D133C11524B = {
+		0889B56CCD46AAF5CFB936C1 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw0/HW0a.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw0/HW0a.h";
 			name = "HW0a.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		7A3996D104424ACD7E7D3165 = {
+		50FBC2334F0982150F6898A9 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw0/HW0b.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw0/HW0b.h";
 			name = "HW0b.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		A3A515A2BDCF752C8BFCD922 = {
+		D399813EC2CDB504ABA17E61 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw0/HW0c.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw0/HW0c.h";
 			name = "HW0c.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		04B01DE40F9419C3151ECBFD = {
+		02130F6537A28061927CD348 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw1/HW1a.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw1/HW1a.h";
 			name = "HW1a.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		EF0B9D2BDDA8C202771AE4CB = {
+		D4A7E1EFBB165A1B0DE9C8A3 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw1/HW1b.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw1/HW1b.h";
 			name = "HW1b.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		3402D1B1B0BF32ED45062AF7 = {
+		3FDEFD70E1E2F6A2E442ABEE = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw2/HW2a.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw2/HW2a.h";
 			name = "HW2a.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		001780809839FB8BEDE89317 = {
+		89D562F7B1FB4375D701941C = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/hw2/HW2b.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/hw2/HW2b.h";
 			name = "HW2b.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		ED2329D6DAF4032E37445679 = {
+		DA93AB385640B1CFCEB2E754 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Geometry.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Geometry.h";
 			name = "Geometry.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		AE54EDFBBB3EA9D1A85ACCA5 = {
+		E1825931611AC19331CEB0E0 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Cube.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Cube.h";
 			name = "Cube.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		F839865592871394D34E4A6D = {
+		9A5BD990604E1E83EF6E92D9 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Sphere.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Sphere.h";
 			name = "Sphere.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		DF2DA790465EE991E0793D5A = {
+		F2B4F469214821B335B543FE = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Cylinder.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Cylinder.h";
 			name = "Cylinder.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		DFB21E4E007887D0BF41F23D = {
+		20DA0F089298957ADFADBADA = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Cone.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Cone.h";
 			name = "Cone.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		82ADF5FA7E2EEF2BE5AC623F = {
+		F26B370EA942A8EF6517B5B6 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/geometry/Scene.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/geometry/Scene.h";
 			name = "Scene.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		2DF4CB23545CB76CF93869D0 = {
+		80E78775EC63506F46EEE7F8 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/lighting/Light.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/lighting/Light.h";
 			name = "Light.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		EFFEB7205F5E8A31B87D9D84 = {
+		61D9C8A134125E408CF79C08 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/camera/Camera.h";
+			path = "/Users/asif/Documents/graphics/CS472.skel/camera/Camera.h";
 			name = "Camera.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		9A7C0288CDFA4ED7F78157B6 = {
+		7C56F3F32B2CA62104C9C344 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/CS472.pro";
+			path = "/Users/asif/Documents/graphics/CS472.skel/CS472.pro";
 			name = "CS472.pro";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "text";
 		};
-		FCF1E4752E4C11CE38926933 = {
+		FF190C06A0F0BF6B1FA3BE13 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/.qmake.stash";
+			path = "/Users/asif/Documents/graphics/CS472.skel/.qmake.stash";
 			name = ".qmake.stash";
 			sourceTree = "<absolute>";
 		};
-		8EC70A622A37374A8DA947F9 = {
+		ED89AC667B2671BFCC567ECF = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/CS472.qrc";
+			path = "/Users/asif/Documents/graphics/CS472.skel/CS472.qrc";
 			name = "CS472.qrc";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "text";
 		};
-		8EC70A622A37374A8DA947F9 = {
+		ED89AC667B2671BFCC567ECF = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Downloads/CS472.skel/CS472.qrc";
+			path = "/Users/asif/Documents/graphics/CS472.skel/CS472.qrc";
 			name = "CS472.qrc";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "text";
 		};
-		CED2AABBA54EFE58A666FA47 = {
-			fileRef = "8EC70A622A37374A8DA947F9";
+		31A887A5ECE3294984C39E3B = {
+			fileRef = "ED89AC667B2671BFCC567ECF";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
@@ -614,117 +614,117 @@
 		25B08E2869634E9BCBA333A2 = {
 			isa = PBXGroup;
 			children = (
-				"7C3A00F5A124988D9491FD74",
-				"AD11745375B2656D208356C5",
-				"73C327A19A2FBA4679648857",
-				"53C074E2F705F37E6169B6F3",
-				"275849FF02141A831B90F56B",
-				"F0FD6CCB1C08090277AEACD8",
-				"67809941FAA7E25A750F51ED",
-				"59064781135D8B06584C7A1E",
-				"22D58F95B3E9617B678560D6",
-				"3FB1802B15D5F2A83EFB8E76");
+				"179EF304369CF41F2FBF5219",
+				"602EB94F4FB006FD1531B479",
+				"CC66F13BB1282AF5D21E6243",
+				"EB2FFEFC14F3834FCD7A241E",
+				"DC122A2A92A774B595703DE8",
+				"F7A9A869B83B4D39C6DA5004",
+				"B246502C12C16C8A670DCDBC",
+				"180EA1E373CF932CF5E74B31",
+				"404A1AA8B3054F244BA80DC4",
+				"4545B13D1265A7F7E7013680");
 			name = "Generated Sources";
 			sourceTree = "<group>";
 		};
 		FF8C409087E1FACCA055498B = {
 			isa = PBXGroup;
 			children = (
-				"88EC3AF4F1A5461C3B182626",
-				"EFFEB7205F5E8A31B87D9D84");
+				"E66E2C41C904F74D83D90D3D",
+				"61D9C8A134125E408CF79C08");
 			name = "camera";
 			sourceTree = "<group>";
 		};
 		24318BA31F631EB3F0026335 = {
 			isa = PBXGroup;
 			children = (
-				"65B8467683FB0A51B719BAAF",
-				"6A03182C13AA7B0D01485359",
-				"75CE2ADEBFE261E5238D5BFE",
-				"F5D6BAE6414A40C6E8412F1D",
-				"E60B6D8A54043499BBBB40F9",
-				"ED2329D6DAF4032E37445679",
-				"AE54EDFBBB3EA9D1A85ACCA5",
-				"F839865592871394D34E4A6D",
-				"DF2DA790465EE991E0793D5A",
-				"DFB21E4E007887D0BF41F23D",
-				"82ADF5FA7E2EEF2BE5AC623F");
+				"9765C36EC11F896148EF7083",
+				"7F120AAB6E3805922E2257B0",
+				"BE2CB4E875A1E872B37F64F9",
+				"078F75C969F1033B7B46B75A",
+				"134521FFB1F8687B829C236D",
+				"DA93AB385640B1CFCEB2E754",
+				"E1825931611AC19331CEB0E0",
+				"9A5BD990604E1E83EF6E92D9",
+				"F2B4F469214821B335B543FE",
+				"20DA0F089298957ADFADBADA",
+				"F26B370EA942A8EF6517B5B6");
 			name = "geometry";
 			sourceTree = "<group>";
 		};
 		5B4C135899C5C2F6FFFD7ADB = {
 			isa = PBXGroup;
 			children = (
-				"D14178FD88A29C7B9CB4BA87",
-				"743182E40AD582D187C8719E",
-				"FF50342DBEE5ABEB07DFE6A7",
-				"A9044D3C96AB6D133C11524B",
-				"7A3996D104424ACD7E7D3165",
-				"A3A515A2BDCF752C8BFCD922");
+				"414792D1F21E21FB1EA59746",
+				"03D789074CADA778179599E7",
+				"1EECCF6DB32A487157FD2E4D",
+				"0889B56CCD46AAF5CFB936C1",
+				"50FBC2334F0982150F6898A9",
+				"D399813EC2CDB504ABA17E61");
 			name = "hw0";
 			sourceTree = "<group>";
 		};
 		3C77C658827F4A07ABF9D58B = {
 			isa = PBXGroup;
 			children = (
-				"B14C63F95C16EFB3DD23CA4A",
-				"96798665F16A2E040CFDB246",
-				"04B01DE40F9419C3151ECBFD",
-				"EF0B9D2BDDA8C202771AE4CB");
+				"A609FF5F664F91287228EFB3",
+				"DEE52341752DF7280BB8FC91",
+				"02130F6537A28061927CD348",
+				"D4A7E1EFBB165A1B0DE9C8A3");
 			name = "hw1";
 			sourceTree = "<group>";
 		};
 		8D1A7173215F622A1D3A66B1 = {
 			isa = PBXGroup;
 			children = (
-				"3860778C0522868FFD8B6115",
-				"A33A2A14C5178A6DB97A988F",
-				"3402D1B1B0BF32ED45062AF7",
-				"001780809839FB8BEDE89317");
+				"AB9B1E4345101479DE0F6280",
+				"F94DEBC4F1FDC3F17CE6691A",
+				"3FDEFD70E1E2F6A2E442ABEE",
+				"89D562F7B1FB4375D701941C");
 			name = "hw2";
 			sourceTree = "<group>";
 		};
 		2156C9B67EB6B3918607349C = {
 			isa = PBXGroup;
 			children = (
-				"A916B81CE9EB6CCA06FC03A6",
-				"2DF4CB23545CB76CF93869D0");
+				"1E287C450D1F2BC746B18649",
+				"80E78775EC63506F46EEE7F8");
 			name = "lighting";
 			sourceTree = "<group>";
 		};
 		87DF60DE337FB58864343E39 = {
 			isa = PBXGroup;
 			children = (
-				"8EC70A622A37374A8DA947F9");
+				"ED89AC667B2671BFCC567ECF");
 			name = "Resources";
 			sourceTree = "<group>";
 		};
 		2EB56BE3C2D93CDAB0C52E67 = {
 			isa = PBXGroup;
 			children = (
-				"09503DC7AFD2F68E7C2C6353",
-				"FCDEF47E89AC4D35E86632E9",
-				"95B927781EFFFE7710258862",
-				"69B3320D27314F9DE8D78F7A",
+				"82E06193BAA6F1F8AE0422D9",
+				"81C47C815EEE965D5D12FB57",
+				"7E3D149FC3AE854649EB3DDF",
+				"55CA059AA7BDDC63FDAF0C30",
 				"5B4C135899C5C2F6FFFD7ADB",
 				"3C77C658827F4A07ABF9D58B",
 				"8D1A7173215F622A1D3A66B1",
 				"24318BA31F631EB3F0026335",
 				"2156C9B67EB6B3918607349C",
 				"FF8C409087E1FACCA055498B",
-				"A93CD385E3790855509E77FE",
-				"8DDEC2854396478451EC6988",
-				"970D3595FFF5EF1A73BB47AB",
-				"43A6DEFCE1886C7030D04744");
+				"64D1DBFDB8634F9F1D22D51E",
+				"3941B1EDB39684DBD651C02F",
+				"2FC0FBA423DF5DF2AD8E4751",
+				"2ACE50C9B901B0B49C600ACB");
 			name = "Sources";
 			sourceTree = "<group>";
 		};
 		74B182DB50CB5611B5C1C297 = {
 			isa = PBXGroup;
 			children = (
-				"9A7C0288CDFA4ED7F78157B6",
-				"FCF1E4752E4C11CE38926933",
-				"8EC70A622A37374A8DA947F9");
+				"7C56F3F32B2CA62104C9C344",
+				"FF190C06A0F0BF6B1FA3BE13",
+				"ED89AC667B2671BFCC567ECF");
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
@@ -736,40 +736,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Qt Preprocessors";
 			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/asif/Downloads/CS472.skel/ -f CS472.xcodeproj/qt_preprocess.mak";
+			shellScript = "make -C /Users/asif/Documents/graphics/CS472.skel/ -f CS472.xcodeproj/qt_preprocess.mak";
 			showEnvVarsInLog = "0";
 		};
 		F7E50F631C51CD5B5DC0BC43 = {
 			buildActionMask = 2147483647;
 			files = (
-				"51BB2AB5623E52A991A70D1F",
-				"B2998866DDAE1DF8FDE5436F",
-				"ED8BD1FC18B48C3591C187D8",
-				"7396F7B370DEADF25D031940",
-				"05A6F7DFB54DF08AA8DBED8F",
-				"EDC9625A0036077ADA1F2FE5",
-				"E6BA284917A6F3B1D66EFDE2",
-				"873722B1F1B19C1C4746CDFB",
-				"257FA4389174F49A2C5DD1E8",
-				"2C927ECA6A80E0F6A487B0DE",
-				"5D7A7D4CE5FB18524232E8FA",
-				"820A93E723984F98D472230C",
-				"C2970AB8DE8D85334D96665F",
-				"A4A2EAF797E456C53A4C22DD",
-				"52BD11036DC97E1FA4F8311B",
-				"13907F10D1878F4D3B98B899",
-				"2FA3194AA9F80E21C672A78A",
-				"C2D74D507311721C2224CE23",
-				"7987BE183FEBFBA20B3C043F",
-				"41996162FEBCDEE9ABFA7EFE",
-				"9D2F940DB1A6CBB8D988EC4A",
-				"4D16E959C0B1171EA8078928",
-				"E802C04FF040836007DBA549",
-				"2A1344B4D6BAEB9F7FE3DBB3",
-				"D09B0C9DA1A8B37BA339DCE7",
-				"637CC75245456832468C7FBE",
-				"94B26E59C2F1A51E1B889757",
-				"DF89E9C1D612A996E3E554E8");
+				"52AF7812E684A4EC092D9602",
+				"4429FBBFBB787ABBBA1D86EA",
+				"D9B83C8244F4D17DBCACAAE8",
+				"D0635B0B68C9D501B0A98703",
+				"D0DEA206A28B2934C7E1C1D5",
+				"EC9021944A20B0273B233162",
+				"F90157E2CB391A8EC1DF36DC",
+				"E6DCFE36C808EB11A8A6D5FC",
+				"1248F15E4DFD99BFF2710CBD",
+				"1BDA8E5580BD26299CD1E31A",
+				"1F04CDC668CDF0C78EA2065D",
+				"9DB3DD6E6A0EBB64D2C665C8",
+				"693015D5E843907909A10144",
+				"493C7ACA2D1F1923A221B1D5",
+				"AA0A6FA46A13387DE56CA9E4",
+				"F5341C7D290D22A91351CB11",
+				"58814E58119DF436B124498F",
+				"4E25379ECD2CD652D47B5714",
+				"945EC3F8EB427095E3B6621F",
+				"0E101E2850BB1BA0C7EDB4A7",
+				"4DA9B116D14128CBDCB65EB6",
+				"F41020C01ED5367AB36542E4",
+				"C3FEFDA5E456DCEABDFA2D2E",
+				"6AD9DC51162E8C0579B9E35D",
+				"2DD6CCA9F6ACF7EE96F37B90",
+				"D8C39300DAD2BD97172595DC",
+				"F93FAF060E852521EDC9326A",
+				"5352AB24D4C2FBF5D3AE0FA5");
 			isa = PBXSourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Compile Sources";
@@ -923,7 +923,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Copy Bundle Resources";
 		};
-		AC7A801CBE977DD3F83D7797 = {
+		01F00D759DA3D6270C5E27FD = {
 			isa = PBXFileReference;
 			includeInIndex = 0;
 			explicitFileType = "wrapper.application";
@@ -932,7 +932,7 @@
 		};
 		FE0A091FDBFB3E9C31B7A1BD = {
 			children = (
-				"AC7A801CBE977DD3F83D7797");
+				"01F00D759DA3D6270C5E27FD");
 			isa = PBXGroup;
 			name = "Products";
 			sourceTree = "<group>";
@@ -949,7 +949,7 @@
 			name = "CS472";
 			sourceTree = "<group>";
 		};
-		6F7A7DF0D60CEAE9C873F3B7 = {
+		CA933BBD5AC6B627139BBB61 = {
 			buildPhases = (
 				"5E618435888B9D49F8540165",
 				"7EF0942E79C014DCEC8976BC");
@@ -962,18 +962,18 @@
 			productName = "Qt Preprocess";
 			name = "Qt Preprocess";
 		};
-		60B1CE573EE0252D4D5A1B42 = {
+		E06955EEC979F21AE5CA08BE = {
 			isa = PBXTargetDependency;
-			target = "6F7A7DF0D60CEAE9C873F3B7";
+			target = "CA933BBD5AC6B627139BBB61";
 		};
-		3BC0BAE606AA24C5AEC24532 = {
+		FBD8EAAC580C0363890BAE33 = {
 			buildPhases = (
 				"F7E50F631C51CD5B5DC0BC43",
 				"D1C883685E82D5676953459A",
 				"30414803F31797EB689AE508");
 			dependencies = (
-				"60B1CE573EE0252D4D5A1B42");
-			productReference = "AC7A801CBE977DD3F83D7797";
+				"E06955EEC979F21AE5CA08BE");
+			productReference = "01F00D759DA3D6270C5E27FD";
 			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
 			isa = PBXNativeTarget;
 			buildRules = (
@@ -996,7 +996,7 @@
 				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
 				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
 				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/asif/Downloads/CS472.skel/";
+				SYMROOT = "/Users/asif/Documents/graphics/CS472.skel/";
 				DYLIB_CURRENT_VERSION = "1.0.0";
 				DYLIB_COMPATIBILITY_VERSION = "1.0";
 				MACOSX_DEPLOYMENT_TARGET = "10.9";
@@ -1006,14 +1006,14 @@
 					"geometry",
 					"camera",
 					"lighting",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
 					".",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
+					"../../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
 				LIBRARY_SEARCH_PATHS = (
 					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
 					"/System/Library/Frameworks/");
@@ -1083,7 +1083,7 @@
 				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
 				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
 				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/asif/Downloads/CS472.skel/";
+				SYMROOT = "/Users/asif/Documents/graphics/CS472.skel/";
 				DYLIB_CURRENT_VERSION = "1.0.0";
 				DYLIB_COMPATIBILITY_VERSION = "1.0";
 				MACOSX_DEPLOYMENT_TARGET = "10.9";
@@ -1093,14 +1093,14 @@
 					"geometry",
 					"camera",
 					"lighting",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
+					"../../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
 					".",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					"../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
+					"../../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
 				LIBRARY_SEARCH_PATHS = (
 					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
 					"/System/Library/Frameworks/");
@@ -1182,8 +1182,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"3BC0BAE606AA24C5AEC24532",
-				"6F7A7DF0D60CEAE9C873F3B7");
+				"FBD8EAAC580C0363890BAE33",
+				"CA933BBD5AC6B627139BBB61");
 			attributes = {
 				TargetAttributes = {
 				};
