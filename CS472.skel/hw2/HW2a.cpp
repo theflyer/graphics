@@ -8,8 +8,7 @@
 // ===============================================================
 
 #include "HW2a.h"
-//#version 150 core
-//#version 300
+
 // shader ID
 enum { HW2A };
 
@@ -72,6 +71,8 @@ HW2a::initializeGL()
 void
 HW2a::resizeGL(int w, int h)
 {
+	// PUT YOUR CODE HERE
+    // save window dimensions
     m_winW = w;
     m_winH = h;
     
@@ -87,7 +88,7 @@ HW2a::resizeGL(int w, int h)
         xmax = 1.;
         ymax = 1 / ar;
     }
-
+    
     // set viewport to occupy full canvas
     glViewport(0, 0, w, h);
     
@@ -96,7 +97,7 @@ HW2a::resizeGL(int w, int h)
     // glLoadIdentity();
     // glOrtho(-xmax, xmax, -ymax, ymax, -1.0, 1.0);
     m_projection.setToIdentity();
-    m_projection.ortho(-xmax, xmax, -ymax, ymax, -1.0, 1.0);// PUT YOUR CODE HERE
+    m_projection.ortho(-xmax, xmax, -ymax, ymax, -1.0, 1.0);
 }
 
 
@@ -135,12 +136,21 @@ HW2a::paintGL()
 	int w = m_winW / 3;
 	int h = m_winH / 3;
 
-	// use glsl program
 	// PUT YOUR CODE HERE
+    // use glsl progam
+    glUseProgram(m_program[HW2A].programId());
+    // pass the following parameters to vertex the shader:
+    // projection matrix, modelview matrix, and "reverse" flag
     glUniformMatrix4fv(m_uniform[HW2A][PROJ ], 1, GL_FALSE, m_projection.constData ());
-
-    glDrawArrays(DrawModes[1], 0, 32);
-
+    
+    for (int i = 0; i<9; i++) {
+        // i%3 always gives result 0, 1 , or 2 which will defie column by multiplyin paintW
+        // i/3 will give integer value of floor 0, 1, or 3 which will defie row by multiplyin paintH
+        glViewport((i%3)*w, (i/3)*h, w, h);
+        
+        glDrawArrays(DrawModes[i], 0, 16);
+    }
+    
 	// disable vertex shader point size adjustment
 	glDisable(GL_VERTEX_PROGRAM_POINT_SIZE);
 }

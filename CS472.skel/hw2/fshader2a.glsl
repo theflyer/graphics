@@ -1,9 +1,7 @@
-#version 150 core
-in a_color;
-out v_color;
-
-// just for fun changing
-void main() 
+#version 120
+ 
+void main()
 {
 	// PUT YOUR CODE HERE
+    gl_FragColor = vec4(1.0, 1.0, 0.0,1.0);
 }
