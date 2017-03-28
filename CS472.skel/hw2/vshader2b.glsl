@@ -10,23 +10,22 @@ uniform	mat4	u_Projection;	// uniform variable for passing projection matrix
 uniform	float	u_Theta;	// Theta parameter
 uniform	int	u_Twist;	// Twist flag
 
-void main() 
+void main()
 {
-    if (u_Twist == 1){// PUT YOUR CODE HERE
-        float d= sqrt((a_Position.x* a_Position.x) + (a_Position.y*a_Position.y));
-     float sintheta = sin(d*u_Theta);
-     float costheta = cos(d*u_Theta);
-    mat4 m = mat4(costheta,sintheta,0.0f, 0.0f, -sintheta, costheta, 0.0f, 0.0f, 0.0f,0.0f,1.0f,0.0f,0.0f,0.0f,0.0f,1.0f);
-    //gl_Position = u_Modelview *  u_Projection * m * vec4(a_Position,0,1);
-        gl_Position = u_Projection * u_Modelview * vec4((a_Position.x * costheta) - (a_Position.y * sintheta),(a_Position.x * sintheta) + (a_Position.y * costheta), 0, 1);
-}
+  float d ;
+    
+  if (u_Twist == 1){// PUT YOUR CODE HERE
+      d= sqrt((a_Position.x* a_Position.x) + (a_Position.y*a_Position.y));
+  }
+   
 else{
-    float d = 1.0;
+     d = 1.0;
+}
     float sintheta = sin(d*u_Theta);
     float costheta = cos(d*u_Theta);
     //gl_Position = u_Modelview * u_Projection * vec4(a_Position,0,1);
        gl_Position = u_Projection * u_Modelview * vec4((a_Position.x * costheta) - (a_Position.y * sintheta),(a_Position.x * sintheta) + (a_Position.y * costheta), 0, 1);
-}
+
     //gl_Position = u_Modelview * u_Projection * vec4(a_Position,0,1);
     v_Color = vec4(a_Color,1);
 
