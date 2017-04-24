@@ -123,25 +123,50 @@ HW3a::paintGL()
 	// bind vertex buffer to the GPU; enable buffer to be copied to the
 	// attribute vertex variable and specify data format
 	// PUT YOUR CODE HERE
-
+    glBindBuffer(GL_ARRAY_BUFFER, m_vertexBuffer); // bind vertex buffer
+    glEnableVertexAttribArray(ATTRIB_VERTEX); // enable buffer
+    glVertexAttribPointer(ATTRIB_VERTEX, 2, GL_FLOAT, false, 0, NULL);
+    
 	// bind texture coord buffer to the GPU; enable buffer to be copied to the
 	// attribute texture coordinate variable and specify data format
 	// PUT YOUR CODE HERE
-
+    glBindBuffer(GL_ARRAY_BUFFER, m_texBuffer); // bind texture buffer
+    glEnableVertexAttribArray(ATTRIB_TEXCOORD); // enable buffer
+    glVertexAttribPointer(ATTRIB_TEXCOORD, 2, GL_FLOAT, false, 0, NULL);
+    
 	// use texture glsl program
 	// PUT YOUR CODE HERE
-
+    glUseProgram(m_program[TEXTURE].programId());
+    
 	// pass parameters to vertex shader
 	// PUT YOUR CODE HERE
-
+    glUniformMatrix4fv(m_uniform[TEXTURE][MV], 1, GL_FALSE, m_modelview.constData());
+    glUniformMatrix4fv(m_uniform[TEXTURE][PROJ], 1, GL_FALSE, m_projection.constData());
+    glUniform1f(m_uniform[TEXTURE][THETA], m_theta);
+    glUniform1i(m_uniform[TEXTURE][TWIST], m_twist);
+    glUniform1i(m_uniform[TEXTURE][SAMPLER], 0);
+    
 	// draw texture mapped triangles
 	// PUT YOUR CODE HERE
-
+    glDrawArrays(GL_TRIANGLES, 0, (GLsizei)m_numPoints);
+    
 	glLineWidth(1.5f);
 
 	// draw wireframe, if necessary
 	if(m_wire) {
 		// PUT YOUR CODE HERE
+        glUseProgram(m_program[WIREFRAME].programId());
+        
+        // passing parameters to vertex shader
+        glUniformMatrix4fv(m_uniform[WIREFRAME][MV], 1, GL_FALSE, m_modelview.constData());
+        glUniformMatrix4fv(m_uniform[WIREFRAME][PROJ], 1, GL_FALSE, m_projection.constData());
+        glUniform1f(m_uniform[WIREFRAME][THETA], m_theta);
+        glUniform1i(m_uniform[WIREFRAME][TWIST], m_twist);
+        
+        for(int a = 0; a < m_numPoints; a = a + 3){
+            glDrawArrays(GL_LINE_LOOP, a, (GLsizei) 3);
+        }
+        
 	}
 }
 
@@ -360,38 +385,24 @@ HW3a::initVertexBuffer()
     }
     */
     
-    static GLuint vertexBuffer = -1;
-    static GLuint texBuffer  = -1;
-    glGenBuffers(1, &vertexBuffer);
-    glGenBuffers(1, &texBuffer );
     // recursively subdivide triangle into triangular facets;
     // store vertex positions and colors in m_points and m_colors, respectively
     divideTriangle(vertices[0], vertices[1], vertices[2], m_subdivisions);
     m_numPoints = (int) m_points.size();		// save number of vertices
     
+    
     // bind vertex buffer to the GPU and copy the vertices from CPU to GPU
-    glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
+    glBindBuffer(GL_ARRAY_BUFFER, m_vertexBuffer);
     glBufferData(GL_ARRAY_BUFFER, m_numPoints*sizeof(vec2), &m_points[0], GL_STATIC_DRAW);
-    // enable the assignment of attribute vertex variable
-    glEnableVertexAttribArray(ATTRIB_VERTEX);
     
-    
-    // assign the buffer object to the attribute vertex variable
-    glVertexAttribPointer(ATTRIB_VERTEX, 2, GL_FLOAT, false, 0, NULL);
-    // bind color buffer to the GPU and copy the colors from CPU to GPU
-    glBindBuffer(GL_ARRAY_BUFFER, texBuffer);
+    // bind texture coord to gpu and tex coordinates from cpu to gpu
+    glBindBuffer(GL_ARRAY_BUFFER, m_texBuffer);
     glBufferData(GL_ARRAY_BUFFER, m_numPoints*sizeof(vec2), &m_coords[0], GL_STATIC_DRAW);
     
-    
-    
-    // enable the assignment of attribute color variable
-    glEnableVertexAttribArray(ATTRIB_TEXTURE_POSITION);
-    
-    // assign the buffer object to the attribute texture variable
-    glVertexAttribPointer(ATTRIB_COLOR, 2, GL_FLOAT, false, 0, NULL);
-    // clear vertex and color vectors because they have already been copied into GPU
+     
+    // clear vertex and coord vectors because they have already been copied into GPU
     m_points.clear();
-    m_colors.clear();
+    m_coords.clear();
 }
 
 
@@ -405,19 +416,17 @@ void
 HW3a::divideTriangle(vec2 a, vec2 b, vec2 c, int count)
 {
 	// PUT YOUR CODE HERE
-    if (count > 0)
-    {
-        QVector2D ab = QVector2D( (a.x() + b.x() ) /2, (a.y() + b.y() ) /2);
-        QVector2D ac = QVector2D( (a.x() + c.x() ) /2,( a.y() + c.y() ) /2);
-        QVector2D bc = QVector2D( (b.x() + c.x() ) /2,( b.y() + c.y() ) /2);
+    if (count > 0){
+        vec2 mid_ab = (a + b) / 2;
+        vec2 mid_ac = (a + c) / 2;
+        vec2 mid_bc = (c + b) / 2;
         
-        divideTriangle(a, ab, ac, count-1);
-        divideTriangle(b, bc, ab, count-1);
-        divideTriangle(c, ac, bc, count-1);
-        divideTriangle(ab, ac, bc, count-1);
+        divideTriangle(a, mid_ab, mid_ac, count - 1);
+        divideTriangle(b, mid_ab, mid_bc, count - 1);
+        divideTriangle(c, mid_bc, mid_ac, count - 1);
+        divideTriangle(mid_ab, mid_ac, mid_bc, count - 1);
     }
-    else
-    {
+    else{
         triangle(a, b, c);
     }
 }
