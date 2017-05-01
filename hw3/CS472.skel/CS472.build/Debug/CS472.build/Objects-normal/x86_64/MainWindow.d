@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/asif/Documents/graphics/HW_3/CS472.skel/MainWindow.cpp \
+  /Users/asif/Documents/graphics/hw3/CS472.skel/MainWindow.cpp \
   MainWindow.h \
   ../../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers/QtWidgets \
   /Users/asif/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers/QtWidgetsDepends \
@@ -467,8 +467,8 @@ dependencies: \
   ../../../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers/qtopenglversion.h \
   dummy.h hw0/HW0a.h hw0/HW0b.h hw0/HW0c.h hw1/HW1a.h hw1/HW1b.h \
   hw2/HW2a.h hw2/HW2b.h hw3/HW3a.h hw3/HW3b.h \
-  /Users/asif/Documents/graphics/HW_3/CS472.skel/camera/Camera.h \
-  /Users/asif/Documents/graphics/HW_3/CS472.skel/lighting/Light.h \
-  /Users/asif/Documents/graphics/HW_3/CS472.skel/geometry/Sphere.h \
+  /Users/asif/Documents/graphics/hw3/CS472.skel/camera/Camera.h \
+  /Users/asif/Documents/graphics/hw3/CS472.skel/lighting/Light.h \
+  /Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Sphere.h \
   geometry/Geometry.h \
-  /Users/asif/Documents/graphics/HW_3/CS472.skel/geometry/Cylinder.h
+  /Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cylinder.h

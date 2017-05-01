@@ -1,4 +1,4 @@
-dependencies: /Users/asif/Documents/graphics/HW_3/CS472.skel/HW.cpp HW.h \
+dependencies: /Users/asif/Documents/graphics/hw3/CS472.skel/HW.cpp HW.h \
   ../../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers/QtWidgets \
   /Users/asif/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers/QtWidgetsDepends \
   /Users/asif/Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers/QtCore \
