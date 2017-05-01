@@ -110,7 +110,7 @@ void
 HW3b::resizeGL(int w, int h)
 {
 	// PUT YOUR CODE (use perspective projection)
-    // PUT YOUR CODE HERE
+    
     m_winW = w;
     m_winH = h;
     
@@ -409,33 +409,65 @@ HW3b::resetMesh()
 				vec.setZ(0.0f);
 				break;
 			case SPIKE:
-				vec.setZ((i==j && i==m_grid/2) ? 1.0f : 0.0f);
+                if(i == j && i == m_grid/2)
+                    vec.setZ(1.0f);
+                else{
+                    vec.setZ(0.0f);
+                }
 				break;
 			case HOLE:
 				// PUT YOUR CODE HERE
-                vec.setZ((!((i > m_grid / 3 && j > m_grid / 3) && (i < m_grid * 2 / 3 && j < m_grid * 2 / 3))) ? 0.5f : 0.0);
+                if(!((i > m_grid / 3 && j > m_grid / 3) && (i < m_grid * 2 / 3 && j < m_grid * 2 / 3))){
+                    vec.setZ(0.5f);
+                }
+                else{
+                    vec.setZ(0.0f);
+                }
 				break;
 			case DIAGONALWALL:
 				// PUT YOUR CODE HERE
-                vec.setZ((((m_grid - i) - j<3) && ((m_grid - i) - j>0)) ? 0.5f : 0.0);
-				break;
+                if (((m_grid - i) - j<3) && ((m_grid - i) - j>0)) {
+                    vec.setZ(0.5f);
+                }
+                else{
+                    vec.setZ(0.0f);
+                }
+                break;
 			case SIDEWALL:
 				// PUT YOUR CODE HERE
-                vec.setZ((i == 1) ? 0.5f : 0.0);
-				break;
+                if(i == 1){
+                    vec.setZ(0.5f);
+                }
+                else{
+                    vec.setZ(0.0f);
+                }
+                break;
 			case DIAGONALBLOCK:
 				// PUT YOUR CODE HERE
-                vec.setZ(((m_grid - i) - j<3) ? 0.5f : 0.0);
-				break;
+                if((m_grid - i) - j<3){
+                    vec.setZ(0.5f);
+                }
+                else{
+                    vec.setZ(0.0f);
+                }
+                break;
 			case MIDDLEBLOCK:
 				// PUT YOUR CODE HERE
-                vec.setZ(((i > m_grid / 3 && j > m_grid / 3) && (i < m_grid * 2 / 3 && j < m_grid * 2 / 3)) ? 0.5f : 0.0);
-
+                if((i > m_grid / 3 && j > m_grid / 3) && (i < m_grid * 2 / 3 && j < m_grid * 2 / 3)){
+                    vec.setZ(0.5f);
+                }
+                else{
+                    vec.setZ(0.0f);
+                }
 				break;
 			case CORNERBLOCK:
 				// PUT YOUR CODE HERE
-                vec.setZ(((i > m_grid * 3 / 4 && j > m_grid * 3 / 4)) ? 0.5f : 0.0);
-
+                if(i > m_grid * 3 / 4 && j > m_grid * 3 / 4){
+                    vec.setZ(0.5f);
+                }
+                else{
+                    vec.setZ(0.0f);
+                }
 				break;
 			case HILL:
 				// PUT YOUR CODE HERE

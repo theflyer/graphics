@@ -5,1281 +5,735 @@
 	};
 	objectVersion = 46;
 	objects = {
-		5E618435888B9D49F8540165 = {
+
+/* Begin PBXAggregateTarget section */
+		F5120FEBE5D2890395250703 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04BA5DA5A1D3C65917CA0BA9 /* QtOpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DFC66F21432D87B25B0EA461 /* QtOpenGL.framework */; };
+		0915F121484070E4F0C9073F /* moc_HW0b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2E116557107DF2CFB8672840 /* moc_HW0b.cpp */; settings = {ATTRIBUTES = (); }; };
+		0B6EC16C6D48DEF4A71E6599 /* moc_HW3a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2813A9C44CF17BF44CF7E804 /* moc_HW3a.cpp */; settings = {ATTRIBUTES = (); }; };
+		0C6A3C2EF3BDBA5C9737F6D7 /* moc_HW0a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D1E64E7724BA951EC56047EE /* moc_HW0a.cpp */; settings = {ATTRIBUTES = (); }; };
+		0E4559376778DAB79DB41C12 /* HW3a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 81DC98CBD6832CD5AA391A06 /* HW3a.cpp */; settings = {ATTRIBUTES = (); }; };
+		11264F1C1EB7E23E005569F7 /* fshader3a1.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F0E1EB7E23E005569F7 /* fshader3a1.glsl */; };
+		11264F1D1EB7E23E005569F7 /* fshader3a2.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F0F1EB7E23E005569F7 /* fshader3a2.glsl */; };
+		11264F1E1EB7E23E005569F7 /* fshader3b1.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F101EB7E23E005569F7 /* fshader3b1.glsl */; };
+		11264F1F1EB7E23E005569F7 /* fshader3b2.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F111EB7E23E005569F7 /* fshader3b2.glsl */; };
+		11264F201EB7E23E005569F7 /* fshader3b3.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F121EB7E23E005569F7 /* fshader3b3.glsl */; };
+		11264F211EB7E23E005569F7 /* fshader3b4.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F131EB7E23E005569F7 /* fshader3b4.glsl */; };
+		11264F221EB7E23E005569F7 /* fshader3b5.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F141EB7E23E005569F7 /* fshader3b5.glsl */; };
+		11264F231EB7E23E005569F7 /* vshader3a1.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F151EB7E23E005569F7 /* vshader3a1.glsl */; };
+		11264F241EB7E23E005569F7 /* vshader3a2.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F161EB7E23E005569F7 /* vshader3a2.glsl */; };
+		11264F251EB7E23E005569F7 /* vshader3b1.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F171EB7E23E005569F7 /* vshader3b1.glsl */; };
+		11264F261EB7E23E005569F7 /* vshader3b2.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F181EB7E23E005569F7 /* vshader3b2.glsl */; };
+		11264F271EB7E23E005569F7 /* vshader3b3.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F191EB7E23E005569F7 /* vshader3b3.glsl */; };
+		11264F281EB7E23E005569F7 /* vshader3b4.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F1A1EB7E23E005569F7 /* vshader3b4.glsl */; };
+		11264F291EB7E23E005569F7 /* vshader3b5.glsl in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 11264F1B1EB7E23E005569F7 /* vshader3b5.glsl */; };
+		1973CD3C44243F680474ED93 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = AE1EB5DFE23C6F3298A7AA85 /* QtCore.framework */; };
+		235843E2E59A90670F6670FF /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8A8640232379E4A6A14FB4AA /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		305F53A895B2BD6DC918BF8C /* HW0a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 75D67AE0A20ED0C742D5A911 /* HW0a.cpp */; settings = {ATTRIBUTES = (); }; };
+		312D3F48FB0EDC45093E7E83 /* MainWindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BF1B76F99E99C9C37BAF9BCA /* MainWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		3CC90AB349501F45131F1E64 /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 58B2ECF27C7F1E742981BCEA /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		54712738B3756843A436FAE5 /* HW0b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 96BE259BFA98EEF4C253E69C /* HW0b.cpp */; settings = {ATTRIBUTES = (); }; };
+		69B115433D14B411403FA4D9 /* moc_dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7FEC604B5DEA128CDA165EE3 /* moc_dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		6CB17754F9F5E907D34EC30F /* moc_HW2b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 420A0C9D79BBCD11471820F5 /* moc_HW2b.cpp */; settings = {ATTRIBUTES = (); }; };
+		6F2A4A6F960735EB3C89CC17 /* Cube.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 593291C2459118DA3D90D8D5 /* Cube.cpp */; settings = {ATTRIBUTES = (); }; };
+		70672ED69F511BCB018A9922 /* HW2a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BA93ABBE065A57ECEB3D8B13 /* HW2a.cpp */; settings = {ATTRIBUTES = (); }; };
+		71D3D3525ED104ED34AF7DFB /* Cone.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F90C77D09806A8E63913E4CE /* Cone.cpp */; settings = {ATTRIBUTES = (); }; };
+		7659E268E61A80C6D9417F45 /* Cylinder.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C216C218CF685D97852A43B2 /* Cylinder.cpp */; settings = {ATTRIBUTES = (); }; };
+		7E3209A9AB79AA29EE674487 /* HW1b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 77CA1F9FEAAE3BF47F3AD032 /* HW1b.cpp */; settings = {ATTRIBUTES = (); }; };
+		84DB20330B3C36B193E6D34A /* Scene.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3750B702DDE96C988A8F0760 /* Scene.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		8A84FC14C7F8D3EEBFF3441D /* moc_HW0c.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8E7C0A4A41BBA1AA9CD60F2E /* moc_HW0c.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		90DF866E037551D44027AB6B /* qrc_CS472.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7A4C1BA37ADA393E9502C9FC /* qrc_CS472.cpp */; settings = {ATTRIBUTES = (); }; };
+		91AE7ACFBAC3E0E29DDAB2CE /* HW1a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EEC48E60D4713A9FF8783C5A /* HW1a.cpp */; settings = {ATTRIBUTES = (); }; };
+		926A010694EF5646630ACB5A /* HW3b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 80CC8DFB79D978C257856C91 /* HW3b.cpp */; settings = {ATTRIBUTES = (); }; };
+		94ACF4F76BC5BA62AF67FC5E /* Light.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 805537695CA12A05EB8FC52E /* Light.cpp */; settings = {ATTRIBUTES = (); }; };
+		9991D65C3E8F82782ECD6497 /* Sphere.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BB9BAFCA8BD2D03FA0678CD4 /* Sphere.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		B95C24D36B4DDEDD8D94D75A /* moc_HW2a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BB8C85109225C8876DEB18D6 /* moc_HW2a.cpp */; settings = {ATTRIBUTES = (); }; };
+		BBA5631EA496A0B02A8B169A /* HW0c.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EFAF1A97F6843D9FAB4C6087 /* HW0c.cpp */; settings = {ATTRIBUTES = (); }; };
+		BDB8DBAB4B9CB189C69623FE /* moc_MainWindow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6537C162ED36A3FACC22B392 /* moc_MainWindow.cpp */; settings = {ATTRIBUTES = (); }; };
+		BF83C4F1FB311CA5003C9A49 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 45837D15EA37FDB90F40AC3F /* QtWidgets.framework */; };
+		C30F6CE44CB5A5DB3F47A355 /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6AD9C99BD4D2A9FF7E2672BB /* QtGui.framework */; };
+		C4682243118AC3C826F2C8F2 /* Camera.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B0BD17172F02C1BF1EE27E21 /* Camera.cpp */; settings = {ATTRIBUTES = (); }; };
+		D9FEFD96CB8297647205F55F /* HW.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FEAA7FA90BA35DE4878AAF8D /* HW.cpp */; settings = {ATTRIBUTES = (); }; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		EA363A6486EB4FABDBD6B9A7 /* moc_HW3b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AEC4538F9B3DF1AE4A60751B /* moc_HW3b.cpp */; settings = {ATTRIBUTES = (); }; };
+		EF70E39193AF44457DBE0E97 /* HW2b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5BEB3563888F8C1256B007F9 /* HW2b.cpp */; settings = {ATTRIBUTES = (); }; };
+		F4351AE69CA18E08F428354D /* moc_HW1a.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0D28FC811AFD99276F5FDA6A /* moc_HW1a.cpp */; settings = {ATTRIBUTES = (); }; };
+		FE989FFF662DF86A2546E1F0 /* moc_HW1b.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EA5CE42BAECE4E2A795A9C7D /* moc_HW1b.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11264F0D1EB7E044005569F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5120FEBE5D2890395250703;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B4EA3839119FD9B45987899 /* Geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Geometry.h; sourceTree = "<absolute>"; };
+		0C7A9C00B6235015B44C78EF /* HW1b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW1b.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1b.h; sourceTree = "<absolute>"; };
+		0D28FC811AFD99276F5FDA6A /* moc_HW1a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW1a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW1a.cpp; sourceTree = "<absolute>"; };
+		11264F0E1EB7E23E005569F7 /* fshader3a1.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fshader3a1.glsl; path = hw3/fshader3a1.glsl; sourceTree = "<group>"; };
+		11264F0F1EB7E23E005569F7 /* fshader3a2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fshader3a2.glsl; path = hw3/fshader3a2.glsl; sourceTree = "<group>"; };
+		11264F101EB7E23E005569F7 /* fshader3b1.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fshader3b1.glsl; path = hw3/fshader3b1.glsl; sourceTree = "<group>"; };
+		11264F111EB7E23E005569F7 /* fshader3b2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fshader3b2.glsl; path = hw3/fshader3b2.glsl; sourceTree = "<group>"; };
+		11264F121EB7E23E005569F7 /* fshader3b3.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fshader3b3.glsl; path = hw3/fshader3b3.glsl; sourceTree = "<group>"; };
+		11264F131EB7E23E005569F7 /* fshader3b4.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fshader3b4.glsl; path = hw3/fshader3b4.glsl; sourceTree = "<group>"; };
+		11264F141EB7E23E005569F7 /* fshader3b5.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fshader3b5.glsl; path = hw3/fshader3b5.glsl; sourceTree = "<group>"; };
+		11264F151EB7E23E005569F7 /* vshader3a1.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vshader3a1.glsl; path = hw3/vshader3a1.glsl; sourceTree = "<group>"; };
+		11264F161EB7E23E005569F7 /* vshader3a2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vshader3a2.glsl; path = hw3/vshader3a2.glsl; sourceTree = "<group>"; };
+		11264F171EB7E23E005569F7 /* vshader3b1.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vshader3b1.glsl; path = hw3/vshader3b1.glsl; sourceTree = "<group>"; };
+		11264F181EB7E23E005569F7 /* vshader3b2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vshader3b2.glsl; path = hw3/vshader3b2.glsl; sourceTree = "<group>"; };
+		11264F191EB7E23E005569F7 /* vshader3b3.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vshader3b3.glsl; path = hw3/vshader3b3.glsl; sourceTree = "<group>"; };
+		11264F1A1EB7E23E005569F7 /* vshader3b4.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vshader3b4.glsl; path = hw3/vshader3b4.glsl; sourceTree = "<group>"; };
+		11264F1B1EB7E23E005569F7 /* vshader3b5.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vshader3b5.glsl; path = hw3/vshader3b5.glsl; sourceTree = "<group>"; };
+		209BB1C741BC3B8AF51E6B46 /* CS472.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CS472.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2813A9C44CF17BF44CF7E804 /* moc_HW3a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW3a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW3a.cpp; sourceTree = "<absolute>"; };
+		29BDF2F3E337F975A00344CE /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Camera.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/camera/Camera.h; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		2E116557107DF2CFB8672840 /* moc_HW0b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW0b.cpp; sourceTree = "<absolute>"; };
+		31EC08F4F541EEF0083D33C1 /* HW0c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0c.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0c.h; sourceTree = "<absolute>"; };
+		370FF8DD1DEE80BFC78BCAF9 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/.qmake.stash; sourceTree = "<absolute>"; };
+		3750B702DDE96C988A8F0760 /* Scene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Scene.cpp; sourceTree = "<absolute>"; };
+		39EA568418D70EA0B20F4819 /* Cone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cone.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cone.h; sourceTree = "<absolute>"; };
+		420A0C9D79BBCD11471820F5 /* moc_HW2b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW2b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW2b.cpp; sourceTree = "<absolute>"; };
+		45837D15EA37FDB90F40AC3F /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		51A2F34F05E929621A30FFDE /* CS472.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = CS472.pro; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/CS472.pro; sourceTree = "<absolute>"; };
+		58B2ECF27C7F1E742981BCEA /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/dummy.cpp; sourceTree = "<absolute>"; };
+		593291C2459118DA3D90D8D5 /* Cube.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cube.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cube.cpp; sourceTree = "<absolute>"; };
+		5BEB3563888F8C1256B007F9 /* HW2b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW2b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2b.cpp; sourceTree = "<absolute>"; };
+		6537C162ED36A3FACC22B392 /* moc_MainWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_MainWindow.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_MainWindow.cpp; sourceTree = "<absolute>"; };
+		67F6AC9B81FD4AF910888671 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainWindow.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/MainWindow.h; sourceTree = "<absolute>"; };
+		6AD9C99BD4D2A9FF7E2672BB /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		72E9A3E48AF8A9B0F6BEC252 /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Sphere.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Sphere.h; sourceTree = "<absolute>"; };
+		74EB1BB1700D4A67966A060C /* HW1a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW1a.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1a.h; sourceTree = "<absolute>"; };
+		75D67AE0A20ED0C742D5A911 /* HW0a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0a.cpp; sourceTree = "<absolute>"; };
+		77CA1F9FEAAE3BF47F3AD032 /* HW1b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW1b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1b.cpp; sourceTree = "<absolute>"; };
+		79D39E63255E3658EAF5BC06 /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cube.h; sourceTree = "<absolute>"; };
+		7A4C1BA37ADA393E9502C9FC /* qrc_CS472.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_CS472.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/qrc_CS472.cpp; sourceTree = "<absolute>"; };
+		7FEC604B5DEA128CDA165EE3 /* moc_dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_dummy.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_dummy.cpp; sourceTree = "<absolute>"; };
+		805537695CA12A05EB8FC52E /* Light.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Light.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/lighting/Light.cpp; sourceTree = "<absolute>"; };
+		80CC8DFB79D978C257856C91 /* HW3b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW3b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3b.cpp; sourceTree = "<absolute>"; };
+		81DC98CBD6832CD5AA391A06 /* HW3a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW3a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3a.cpp; sourceTree = "<absolute>"; };
+		8A8640232379E4A6A14FB4AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/main.cpp; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		8DC65AB678481AC48F0F6F50 /* HW3a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW3a.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3a.h; sourceTree = "<absolute>"; };
+		8E7C0A4A41BBA1AA9CD60F2E /* moc_HW0c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0c.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW0c.cpp; sourceTree = "<absolute>"; };
+		92F5B8CC7E68BC3AC93B579A /* dummy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dummy.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/dummy.h; sourceTree = "<absolute>"; };
+		96BE259BFA98EEF4C253E69C /* HW0b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0b.cpp; sourceTree = "<absolute>"; };
+		982A3F26027926D50D1988B5 /* HW0a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0a.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0a.h; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A7175991D8841D71F7FEC925 /* HW3b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW3b.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3b.h; sourceTree = "<absolute>"; };
+		AE1EB5DFE23C6F3298A7AA85 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		AE9291EAD3338D02E39E42DA /* HW2b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW2b.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2b.h; sourceTree = "<absolute>"; };
+		AEC4538F9B3DF1AE4A60751B /* moc_HW3b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW3b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW3b.cpp; sourceTree = "<absolute>"; };
+		B0BD17172F02C1BF1EE27E21 /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Camera.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/camera/Camera.cpp; sourceTree = "<absolute>"; };
+		BA93ABBE065A57ECEB3D8B13 /* HW2a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW2a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2a.cpp; sourceTree = "<absolute>"; };
+		BB8C85109225C8876DEB18D6 /* moc_HW2a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW2a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW2a.cpp; sourceTree = "<absolute>"; };
+		BB9BAFCA8BD2D03FA0678CD4 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Sphere.cpp; sourceTree = "<absolute>"; };
+		BF1B76F99E99C9C37BAF9BCA /* MainWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MainWindow.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/MainWindow.cpp; sourceTree = "<absolute>"; };
+		C01AB20A9215597F79DA398A /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Light.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/lighting/Light.h; sourceTree = "<absolute>"; };
+		C216C218CF685D97852A43B2 /* Cylinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cylinder.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cylinder.cpp; sourceTree = "<absolute>"; };
+		CFCEBF42E29A0BA336759124 /* CS472.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CS472.icns; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/CS472.icns; sourceTree = "<absolute>"; };
+		D14680F59AAB692100366E89 /* HW2a.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW2a.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2a.h; sourceTree = "<absolute>"; };
+		D1E64E7724BA951EC56047EE /* moc_HW0a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW0a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW0a.cpp; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DE59FBB76CAB519A14998860 /* HW0b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW0b.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0b.h; sourceTree = "<absolute>"; };
+		DFC66F21432D87B25B0EA461 /* QtOpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtOpenGL.framework; path = /Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework; sourceTree = "<absolute>"; };
+		DFCED43049A514073BEEAB4E /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Scene.h; sourceTree = "<absolute>"; };
+		EA5CE42BAECE4E2A795A9C7D /* moc_HW1b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_HW1b.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW1b.cpp; sourceTree = "<absolute>"; };
+		EC7740513394BB7EB6BE6EC6 /* HW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HW.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/HW.h; sourceTree = "<absolute>"; };
+		EEC48E60D4713A9FF8783C5A /* HW1a.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW1a.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1a.cpp; sourceTree = "<absolute>"; };
+		EFAF1A97F6843D9FAB4C6087 /* HW0c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW0c.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0c.cpp; sourceTree = "<absolute>"; };
+		F2325EAFCC4AEC69178F88B6 /* Cylinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Cylinder.h; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cylinder.h; sourceTree = "<absolute>"; };
+		F90C77D09806A8E63913E4CE /* Cone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cone.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cone.cpp; sourceTree = "<absolute>"; };
+		FC18995D05EB6DCBF737D987 /* CS472.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = CS472.qrc; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/CS472.qrc; sourceTree = "<absolute>"; };
+		FEAA7FA90BA35DE4878AAF8D /* HW.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HW.cpp; path = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/HW.cpp; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				);
-			isa = PBXShellScriptBuildPhase;
+				04BA5DA5A1D3C65917CA0BA9 /* QtOpenGL.framework in Link Binary With Libraries */,
+				BF83C4F1FB311CA5003C9A49 /* QtWidgets.framework in Link Binary With Libraries */,
+				C30F6CE44CB5A5DB3F47A355 /* QtGui.framework in Link Binary With Libraries */,
+				1973CD3C44243F680474ED93 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
-			name = "Qt Qmake";
-			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/asif/Documents/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_makeqmake.mak";
-			showEnvVarsInLog = "0";
 		};
-		67549AB6DC403A8675D346B4 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/main.cpp";
-			name = "main.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		0536EA79A312C06BE3E75906 = {
-			fileRef = "67549AB6DC403A8675D346B4";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		DC02059AE7018F705F584078 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/MainWindow.cpp";
-			name = "MainWindow.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		9BC2EB2F83AD1BCEE315CA4F = {
-			fileRef = "DC02059AE7018F705F584078";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		255197F19A241B4BD9583C01 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/HW.cpp";
-			name = "HW.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		6252B35949A33E602489D776 = {
-			fileRef = "255197F19A241B4BD9583C01";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		F64438E50B812819F13AEB86 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/dummy.cpp";
-			name = "dummy.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		CD1B0BA1764069AFFC80EB56 = {
-			fileRef = "F64438E50B812819F13AEB86";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		783D28DA54F00A8016EAFB90 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0a.cpp";
-			name = "HW0a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		58463F01C63F592AE8132B71 = {
-			fileRef = "783D28DA54F00A8016EAFB90";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		1C2B5B016D246A57755D86CB = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0b.cpp";
-			name = "HW0b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		ED1A4F683E055635DC92CF84 = {
-			fileRef = "1C2B5B016D246A57755D86CB";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		814B2AB1F730B2E3727636C4 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0c.cpp";
-			name = "HW0c.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		E32F252C30393C3587D3AB9C = {
-			fileRef = "814B2AB1F730B2E3727636C4";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		C44C90130D872C7E52EEC5B2 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1a.cpp";
-			name = "HW1a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		D4E7D7310AB88805D06C2322 = {
-			fileRef = "C44C90130D872C7E52EEC5B2";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		7F6015621EA37641DC0379ED = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1b.cpp";
-			name = "HW1b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		DBB4D9114DD4EC05B82629E9 = {
-			fileRef = "7F6015621EA37641DC0379ED";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		913397DF783064E252AD6F40 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2a.cpp";
-			name = "HW2a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		A2699502F5C162438813BF17 = {
-			fileRef = "913397DF783064E252AD6F40";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		EA4F8D476FC29A0D01A6A191 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2b.cpp";
-			name = "HW2b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		736AE8D80EB46675B5EFDD6A = {
-			fileRef = "EA4F8D476FC29A0D01A6A191";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		B8E8F41387DFEFB17EB29460 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3a.cpp";
-			name = "HW3a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		18182E6F977549785DC19A31 = {
-			fileRef = "B8E8F41387DFEFB17EB29460";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		229B53EAAAD8B3F0B2609315 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3b.cpp";
-			name = "HW3b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		D4F2AF2E78155AFDDE5E9BA0 = {
-			fileRef = "229B53EAAAD8B3F0B2609315";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		BD01D80F3D79486C8834DC33 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cube.cpp";
-			name = "Cube.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		9F0F629B75D4388C679312F6 = {
-			fileRef = "BD01D80F3D79486C8834DC33";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		CB4E57107AEECD5F4F1407CA = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Sphere.cpp";
-			name = "Sphere.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		A8850A73E39E79F403A7DC19 = {
-			fileRef = "CB4E57107AEECD5F4F1407CA";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		C7ADCCDAE51BC7FEB3E16872 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cylinder.cpp";
-			name = "Cylinder.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		24CE43BCED2926FE307C1F23 = {
-			fileRef = "C7ADCCDAE51BC7FEB3E16872";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		E3EB4E71800A4C99A9124B71 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cone.cpp";
-			name = "Cone.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		64DD5D01D8FCB93F47F54384 = {
-			fileRef = "E3EB4E71800A4C99A9124B71";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		833E52D74773BAE1F089061D = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Scene.cpp";
-			name = "Scene.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		D1E67F96255CF2D6B1D52ECD = {
-			fileRef = "833E52D74773BAE1F089061D";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		FF7E64374E0852AE13FE2B89 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/lighting/Light.cpp";
-			name = "Light.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		04FEBCA1AA0382221E60672E = {
-			fileRef = "FF7E64374E0852AE13FE2B89";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		1EEB1CA4E118C85D62885821 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/camera/Camera.cpp";
-			name = "Camera.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		B038EEDB307A562D7F57A35B = {
-			fileRef = "1EEB1CA4E118C85D62885821";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		A2A6FBB967E7BF6CFA4EE519 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.icns";
-			name = "CS472.icns";
-			sourceTree = "<absolute>";
-		};
-		13A7EFCA07DA49A609B79514 = {
-			fileRef = "A2A6FBB967E7BF6CFA4EE519";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		0B6B97560AAE77B0855A7C06 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/qrc_CS472.cpp";
-			name = "qrc_CS472.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		702BE7B6CF4154964703EB37 = {
-			fileRef = "0B6B97560AAE77B0855A7C06";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		D624FCFCCA7CD4625AC2315C = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_MainWindow.cpp";
-			name = "moc_MainWindow.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		DD74D3EE9400A2157777890B = {
-			fileRef = "D624FCFCCA7CD4625AC2315C";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		682264702091494CE68B6910 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_dummy.cpp";
-			name = "moc_dummy.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		32C41C8DE15A903DFFE910B0 = {
-			fileRef = "682264702091494CE68B6910";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		62423EE76E31F51D6C0AFD87 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW0a.cpp";
-			name = "moc_HW0a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		58B2A4B44FB43678FEA69675 = {
-			fileRef = "62423EE76E31F51D6C0AFD87";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		F13D12BCA0C589643CF414DE = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW0b.cpp";
-			name = "moc_HW0b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		A0B3B3BECA074A91C3C378CA = {
-			fileRef = "F13D12BCA0C589643CF414DE";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		07E0A39B88516E408A259DC1 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW0c.cpp";
-			name = "moc_HW0c.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		54BEA89C0F20201BC969EDFB = {
-			fileRef = "07E0A39B88516E408A259DC1";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		7E3EF9D5EEF2A5209CC7B7CF = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW1a.cpp";
-			name = "moc_HW1a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		4BBAE13E61C0B3A37F0DC68F = {
-			fileRef = "7E3EF9D5EEF2A5209CC7B7CF";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		48EAE90400A3C1693555BF82 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW1b.cpp";
-			name = "moc_HW1b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		4E3031864EBBCEA73C2A6EF2 = {
-			fileRef = "48EAE90400A3C1693555BF82";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		CF689A6A3B4E18C7076F5C30 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW2a.cpp";
-			name = "moc_HW2a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		F9AD53723B9265D60E11925C = {
-			fileRef = "CF689A6A3B4E18C7076F5C30";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		0ABE288AF6B89F7AC2F8A3AB = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW2b.cpp";
-			name = "moc_HW2b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		472CC3F3FB6B572FE39C0FFD = {
-			fileRef = "0ABE288AF6B89F7AC2F8A3AB";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		273B99FADEDA2C283C1283A8 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW3a.cpp";
-			name = "moc_HW3a.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		43ABB08A9369EB6121635142 = {
-			fileRef = "273B99FADEDA2C283C1283A8";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		ED2B3E86E1518D8D2FAE047A = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW3b.cpp";
-			name = "moc_HW3b.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		6C86DD1F322DEA535ADD5C61 = {
-			fileRef = "ED2B3E86E1518D8D2FAE047A";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		0371770F99A5085C17590CDE = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/MainWindow.h";
-			name = "MainWindow.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		674FF9A896882CC505119E83 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/HW.h";
-			name = "HW.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		DBC1AA2CE3140F8EC3DB43B6 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/dummy.h";
-			name = "dummy.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		32AAC734C47C351C3E7548A7 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0a.h";
-			name = "HW0a.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		C603B826E344A854DCAEF888 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0b.h";
-			name = "HW0b.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		148924FD411BB71D3E552824 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0c.h";
-			name = "HW0c.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		72C3AE155032DA5FE117A36F = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1a.h";
-			name = "HW1a.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		239A7F4252F470C434181FDA = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1b.h";
-			name = "HW1b.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		71AE14539FDB5F77BBCD7F54 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2a.h";
-			name = "HW2a.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		966E0DE35618BDD9C0139073 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2b.h";
-			name = "HW2b.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		F21FEDF139D1AECB7E4BE061 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3a.h";
-			name = "HW3a.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		DA89234067404965DD94BCA2 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3b.h";
-			name = "HW3b.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		6168DF389B6501F4CFE2E51A = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Geometry.h";
-			name = "Geometry.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		BDFD83FFAFCD69839247195E = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cube.h";
-			name = "Cube.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		0E97A17FBEFB25033E021A74 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Sphere.h";
-			name = "Sphere.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		F84CEACDE69DE1D9F064E72F = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cylinder.h";
-			name = "Cylinder.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		F43A1F1485B9631B3B8C2714 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cone.h";
-			name = "Cone.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		B75C71A025D6F34BC926BBE9 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Scene.h";
-			name = "Scene.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		BCF4BA25AC323103113A1593 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/lighting/Light.h";
-			name = "Light.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		8B90D004CED10698D93C7CA0 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/camera/Camera.h";
-			name = "Camera.h";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.c.h";
-		};
-		746E183D6033C3B18BBF6626 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.pro";
-			name = "CS472.pro";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "text";
-		};
-		E6B7CC840D6301A2EB5B7D16 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/.qmake.stash";
-			name = ".qmake.stash";
-			sourceTree = "<absolute>";
-		};
-		7AE4AC1733B49F29C529FFD1 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.qrc";
-			name = "CS472.qrc";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "text";
-		};
-		7AE4AC1733B49F29C529FFD1 = {
-			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.qrc";
-			name = "CS472.qrc";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "text";
-		};
-		3CB85226D341D9A6B0C74A6E = {
-			fileRef = "7AE4AC1733B49F29C529FFD1";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		25B08E2869634E9BCBA333A2 = {
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A31DA8FFB6A3F21532CA67A /* hw3 */ = {
 			isa = PBXGroup;
 			children = (
-				"0B6B97560AAE77B0855A7C06",
-				"D624FCFCCA7CD4625AC2315C",
-				"682264702091494CE68B6910",
-				"62423EE76E31F51D6C0AFD87",
-				"F13D12BCA0C589643CF414DE",
-				"07E0A39B88516E408A259DC1",
-				"7E3EF9D5EEF2A5209CC7B7CF",
-				"48EAE90400A3C1693555BF82",
-				"CF689A6A3B4E18C7076F5C30",
-				"0ABE288AF6B89F7AC2F8A3AB",
-				"273B99FADEDA2C283C1283A8",
-				"ED2B3E86E1518D8D2FAE047A");
+				81DC98CBD6832CD5AA391A06 /* HW3a.cpp */,
+				80CC8DFB79D978C257856C91 /* HW3b.cpp */,
+				8DC65AB678481AC48F0F6F50 /* HW3a.h */,
+				A7175991D8841D71F7FEC925 /* HW3b.h */,
+			);
+			name = hw3;
+			sourceTree = "<group>";
+		};
+		2156C9B67EB6B3918607349C /* lighting */ = {
+			isa = PBXGroup;
+			children = (
+				805537695CA12A05EB8FC52E /* Light.cpp */,
+				C01AB20A9215597F79DA398A /* Light.h */,
+			);
+			name = lighting;
+			sourceTree = "<group>";
+		};
+		24318BA31F631EB3F0026335 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				593291C2459118DA3D90D8D5 /* Cube.cpp */,
+				BB9BAFCA8BD2D03FA0678CD4 /* Sphere.cpp */,
+				C216C218CF685D97852A43B2 /* Cylinder.cpp */,
+				F90C77D09806A8E63913E4CE /* Cone.cpp */,
+				3750B702DDE96C988A8F0760 /* Scene.cpp */,
+				0B4EA3839119FD9B45987899 /* Geometry.h */,
+				79D39E63255E3658EAF5BC06 /* Cube.h */,
+				72E9A3E48AF8A9B0F6BEC252 /* Sphere.h */,
+				F2325EAFCC4AEC69178F88B6 /* Cylinder.h */,
+				39EA568418D70EA0B20F4819 /* Cone.h */,
+				DFCED43049A514073BEEAB4E /* Scene.h */,
+			);
+			name = geometry;
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C1BA37ADA393E9502C9FC /* qrc_CS472.cpp */,
+				6537C162ED36A3FACC22B392 /* moc_MainWindow.cpp */,
+				7FEC604B5DEA128CDA165EE3 /* moc_dummy.cpp */,
+				D1E64E7724BA951EC56047EE /* moc_HW0a.cpp */,
+				2E116557107DF2CFB8672840 /* moc_HW0b.cpp */,
+				8E7C0A4A41BBA1AA9CD60F2E /* moc_HW0c.cpp */,
+				0D28FC811AFD99276F5FDA6A /* moc_HW1a.cpp */,
+				EA5CE42BAECE4E2A795A9C7D /* moc_HW1b.cpp */,
+				BB8C85109225C8876DEB18D6 /* moc_HW2a.cpp */,
+				420A0C9D79BBCD11471820F5 /* moc_HW2b.cpp */,
+				2813A9C44CF17BF44CF7E804 /* moc_HW3a.cpp */,
+				AEC4538F9B3DF1AE4A60751B /* moc_HW3b.cpp */,
+			);
 			name = "Generated Sources";
 			sourceTree = "<group>";
 		};
-		FF8C409087E1FACCA055498B = {
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				"1EEB1CA4E118C85D62885821",
-				"8B90D004CED10698D93C7CA0");
-			name = "camera";
+				8A8640232379E4A6A14FB4AA /* main.cpp */,
+				BF1B76F99E99C9C37BAF9BCA /* MainWindow.cpp */,
+				FEAA7FA90BA35DE4878AAF8D /* HW.cpp */,
+				58B2ECF27C7F1E742981BCEA /* dummy.cpp */,
+				5B4C135899C5C2F6FFFD7ADB /* hw0 */,
+				3C77C658827F4A07ABF9D58B /* hw1 */,
+				8D1A7173215F622A1D3A66B1 /* hw2 */,
+				0A31DA8FFB6A3F21532CA67A /* hw3 */,
+				24318BA31F631EB3F0026335 /* geometry */,
+				2156C9B67EB6B3918607349C /* lighting */,
+				FF8C409087E1FACCA055498B /* camera */,
+				CFCEBF42E29A0BA336759124 /* CS472.icns */,
+				67F6AC9B81FD4AF910888671 /* MainWindow.h */,
+				EC7740513394BB7EB6BE6EC6 /* HW.h */,
+				92F5B8CC7E68BC3AC93B579A /* dummy.h */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
-		24318BA31F631EB3F0026335 = {
+		3C77C658827F4A07ABF9D58B /* hw1 */ = {
 			isa = PBXGroup;
 			children = (
-				"BD01D80F3D79486C8834DC33",
-				"CB4E57107AEECD5F4F1407CA",
-				"C7ADCCDAE51BC7FEB3E16872",
-				"E3EB4E71800A4C99A9124B71",
-				"833E52D74773BAE1F089061D",
-				"6168DF389B6501F4CFE2E51A",
-				"BDFD83FFAFCD69839247195E",
-				"0E97A17FBEFB25033E021A74",
-				"F84CEACDE69DE1D9F064E72F",
-				"F43A1F1485B9631B3B8C2714",
-				"B75C71A025D6F34BC926BBE9");
-			name = "geometry";
+				EEC48E60D4713A9FF8783C5A /* HW1a.cpp */,
+				77CA1F9FEAAE3BF47F3AD032 /* HW1b.cpp */,
+				74EB1BB1700D4A67966A060C /* HW1a.h */,
+				0C7A9C00B6235015B44C78EF /* HW1b.h */,
+			);
+			name = hw1;
 			sourceTree = "<group>";
 		};
-		5B4C135899C5C2F6FFFD7ADB = {
+		5B4C135899C5C2F6FFFD7ADB /* hw0 */ = {
 			isa = PBXGroup;
 			children = (
-				"783D28DA54F00A8016EAFB90",
-				"1C2B5B016D246A57755D86CB",
-				"814B2AB1F730B2E3727636C4",
-				"32AAC734C47C351C3E7548A7",
-				"C603B826E344A854DCAEF888",
-				"148924FD411BB71D3E552824");
-			name = "hw0";
+				75D67AE0A20ED0C742D5A911 /* HW0a.cpp */,
+				96BE259BFA98EEF4C253E69C /* HW0b.cpp */,
+				EFAF1A97F6843D9FAB4C6087 /* HW0c.cpp */,
+				982A3F26027926D50D1988B5 /* HW0a.h */,
+				DE59FBB76CAB519A14998860 /* HW0b.h */,
+				31EC08F4F541EEF0083D33C1 /* HW0c.h */,
+			);
+			name = hw0;
 			sourceTree = "<group>";
 		};
-		3C77C658827F4A07ABF9D58B = {
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				"C44C90130D872C7E52EEC5B2",
-				"7F6015621EA37641DC0379ED",
-				"72C3AE155032DA5FE117A36F",
-				"239A7F4252F470C434181FDA");
-			name = "hw1";
-			sourceTree = "<group>";
-		};
-		8D1A7173215F622A1D3A66B1 = {
-			isa = PBXGroup;
-			children = (
-				"913397DF783064E252AD6F40",
-				"EA4F8D476FC29A0D01A6A191",
-				"71AE14539FDB5F77BBCD7F54",
-				"966E0DE35618BDD9C0139073");
-			name = "hw2";
-			sourceTree = "<group>";
-		};
-		0A31DA8FFB6A3F21532CA67A = {
-			isa = PBXGroup;
-			children = (
-				"B8E8F41387DFEFB17EB29460",
-				"229B53EAAAD8B3F0B2609315",
-				"F21FEDF139D1AECB7E4BE061",
-				"DA89234067404965DD94BCA2");
-			name = "hw3";
-			sourceTree = "<group>";
-		};
-		2156C9B67EB6B3918607349C = {
-			isa = PBXGroup;
-			children = (
-				"FF7E64374E0852AE13FE2B89",
-				"BCF4BA25AC323103113A1593");
-			name = "lighting";
-			sourceTree = "<group>";
-		};
-		87DF60DE337FB58864343E39 = {
-			isa = PBXGroup;
-			children = (
-				"7AE4AC1733B49F29C529FFD1");
-			name = "Resources";
-			sourceTree = "<group>";
-		};
-		2EB56BE3C2D93CDAB0C52E67 = {
-			isa = PBXGroup;
-			children = (
-				"67549AB6DC403A8675D346B4",
-				"DC02059AE7018F705F584078",
-				"255197F19A241B4BD9583C01",
-				"F64438E50B812819F13AEB86",
-				"5B4C135899C5C2F6FFFD7ADB",
-				"3C77C658827F4A07ABF9D58B",
-				"8D1A7173215F622A1D3A66B1",
-				"0A31DA8FFB6A3F21532CA67A",
-				"24318BA31F631EB3F0026335",
-				"2156C9B67EB6B3918607349C",
-				"FF8C409087E1FACCA055498B",
-				"A2A6FBB967E7BF6CFA4EE519",
-				"0371770F99A5085C17590CDE",
-				"674FF9A896882CC505119E83",
-				"DBC1AA2CE3140F8EC3DB43B6");
-			name = "Sources";
-			sourceTree = "<group>";
-		};
-		74B182DB50CB5611B5C1C297 = {
-			isa = PBXGroup;
-			children = (
-				"746E183D6033C3B18BBF6626",
-				"E6B7CC840D6301A2EB5B7D16",
-				"7AE4AC1733B49F29C529FFD1");
+				51A2F34F05E929621A30FFDE /* CS472.pro */,
+				370FF8DD1DEE80BFC78BCAF9 /* .qmake.stash */,
+			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7EF0942E79C014DCEC8976BC = {
-			buildActionMask = 2147483647;
-			files = (
-				);
-			isa = PBXShellScriptBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Qt Preprocessors";
-			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/asif/Documents/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_preprocess.mak";
-			showEnvVarsInLog = "0";
-		};
-		F7E50F631C51CD5B5DC0BC43 = {
-			buildActionMask = 2147483647;
-			files = (
-				"0536EA79A312C06BE3E75906",
-				"9BC2EB2F83AD1BCEE315CA4F",
-				"6252B35949A33E602489D776",
-				"CD1B0BA1764069AFFC80EB56",
-				"58463F01C63F592AE8132B71",
-				"ED1A4F683E055635DC92CF84",
-				"E32F252C30393C3587D3AB9C",
-				"D4E7D7310AB88805D06C2322",
-				"DBB4D9114DD4EC05B82629E9",
-				"A2699502F5C162438813BF17",
-				"736AE8D80EB46675B5EFDD6A",
-				"18182E6F977549785DC19A31",
-				"D4F2AF2E78155AFDDE5E9BA0",
-				"9F0F629B75D4388C679312F6",
-				"A8850A73E39E79F403A7DC19",
-				"24CE43BCED2926FE307C1F23",
-				"64DD5D01D8FCB93F47F54384",
-				"D1E67F96255CF2D6B1D52ECD",
-				"04FEBCA1AA0382221E60672E",
-				"B038EEDB307A562D7F57A35B",
-				"702BE7B6CF4154964703EB37",
-				"DD74D3EE9400A2157777890B",
-				"32C41C8DE15A903DFFE910B0",
-				"58B2A4B44FB43678FEA69675",
-				"A0B3B3BECA074A91C3C378CA",
-				"54BEA89C0F20201BC969EDFB",
-				"4BBAE13E61C0B3A37F0DC68F",
-				"4E3031864EBBCEA73C2A6EF2",
-				"F9AD53723B9265D60E11925C",
-				"472CC3F3FB6B572FE39C0FFD",
-				"43ABB08A9369EB6121635142",
-				"6C86DD1F322DEA535ADD5C61");
-			isa = PBXSourcesBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Compile Sources";
-		};
-		3BBC1A4742B728BC22924A0F = {
-			isa = PBXFileReference;
-			name = "QtOpenGL.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		5B4F2D4402C46D1F457F7B14 = {
-			fileRef = "3BBC1A4742B728BC22924A0F";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		6AB7F6F6A21E22DBFFE3823E = {
-			isa = PBXFileReference;
-			name = "QtWidgets.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		6D63BBA8F4009E5582604225 = {
-			fileRef = "6AB7F6F6A21E22DBFFE3823E";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		DA78C54300C11FC5242BE879 = {
-			isa = PBXFileReference;
-			name = "QtGui.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtGui.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		175D50C4B4BDD37B480096A9 = {
-			fileRef = "DA78C54300C11FC5242BE879";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		6001D14E4BF30180CECA5BCD = {
-			isa = PBXFileReference;
-			name = "QtCore.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtCore.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		F68C2FC2B698C2F4F0AC2D72 = {
-			fileRef = "6001D14E4BF30180CECA5BCD";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		2B774D8E4178765CE52EAAF5 = {
-			isa = PBXFileReference;
-			name = "DiskArbitration.framework";
-			path = "/System/Library/Frameworks/DiskArbitration.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		A99B2AA0F9CBBDD12BA126A4 = {
-			fileRef = "2B774D8E4178765CE52EAAF5";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		A1A67BEAA744704B29168D39 = {
-			isa = PBXFileReference;
-			name = "IOKit.framework";
-			path = "/System/Library/Frameworks/IOKit.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		8D267F2E4776F0ECA2F49DC8 = {
-			fileRef = "A1A67BEAA744704B29168D39";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		D4B32C2222F82AC56BADEB21 = {
-			isa = PBXFileReference;
-			name = "OpenGL.framework";
-			path = "/System/Library/Frameworks/OpenGL.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		8771A8C96E9C391044035D99 = {
-			fileRef = "D4B32C2222F82AC56BADEB21";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		8D9815BDB5BD9F90D2BC05C5 = {
-			isa = PBXFileReference;
-			name = "AGL.framework";
-			path = "/System/Library/Frameworks/AGL.framework";
-			refType = 0;
-			sourceTree = "<absolute>";
-			lastKnownFileType = "wrapper.framework";
-		};
-		E45E51A644D5FC9F942ECE55 = {
-			fileRef = "8D9815BDB5BD9F90D2BC05C5";
-			isa = PBXBuildFile;
-			settings = {
-			};
-		};
-		AF39DD055C3EF8226FBE929D = {
-			children = (
-				"3BBC1A4742B728BC22924A0F",
-				"6AB7F6F6A21E22DBFFE3823E",
-				"DA78C54300C11FC5242BE879",
-				"6001D14E4BF30180CECA5BCD",
-				"2B774D8E4178765CE52EAAF5",
-				"A1A67BEAA744704B29168D39",
-				"D4B32C2222F82AC56BADEB21",
-				"8D9815BDB5BD9F90D2BC05C5");
+		87DF60DE337FB58864343E39 /* Resources */ = {
 			isa = PBXGroup;
-			name = "Frameworks";
+			children = (
+				FC18995D05EB6DCBF737D987 /* CS472.qrc */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		D1C883685E82D5676953459A = {
-			buildActionMask = 2147483647;
-			files = (
-				"5B4F2D4402C46D1F457F7B14",
-				"6D63BBA8F4009E5582604225",
-				"175D50C4B4BDD37B480096A9",
-				"F68C2FC2B698C2F4F0AC2D72",
-				"A99B2AA0F9CBBDD12BA126A4",
-				"8D267F2E4776F0ECA2F49DC8",
-				"8771A8C96E9C391044035D99",
-				"E45E51A644D5FC9F942ECE55");
-			isa = PBXFrameworksBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Link Binary With Libraries";
-		};
-		30414803F31797EB689AE508 = {
-			buildActionMask = 2147483647;
-			files = (
-				"CCBCB35F6D53BA33263BDA52");
-			isa = PBXResourcesBuildPhase;
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Copy Bundle Resources";
-		};
-		34F85EA19192DC3D4555555B = {
-			isa = PBXFileReference;
-			includeInIndex = 0;
-			explicitFileType = "wrapper.application";
-			path = "CS472.app";
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FE0A091FDBFB3E9C31B7A1BD = {
-			children = (
-				"34F85EA19192DC3D4555555B");
+		8D1A7173215F622A1D3A66B1 /* hw2 */ = {
 			isa = PBXGroup;
-			name = "Products";
+			children = (
+				BA93ABBE065A57ECEB3D8B13 /* HW2a.cpp */,
+				5BEB3563888F8C1256B007F9 /* HW2b.cpp */,
+				D14680F59AAB692100366E89 /* HW2a.h */,
+				AE9291EAD3338D02E39E42DA /* HW2b.h */,
+			);
+			name = hw2;
 			sourceTree = "<group>";
 		};
-		E8C543AB96796ECAA2E65C57 = {
-			children = (
-				"2EB56BE3C2D93CDAB0C52E67",
-				"25B08E2869634E9BCBA333A2",
-				"74B182DB50CB5611B5C1C297",
-				"87DF60DE337FB58864343E39",
-				"AF39DD055C3EF8226FBE929D",
-				"FE0A091FDBFB3E9C31B7A1BD");
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
 			isa = PBXGroup;
-			name = "CS472";
+			children = (
+				DFC66F21432D87B25B0EA461 /* QtOpenGL.framework */,
+				45837D15EA37FDB90F40AC3F /* QtWidgets.framework */,
+				6AD9C99BD4D2A9FF7E2672BB /* QtGui.framework */,
+				AE1EB5DFE23C6F3298A7AA85 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2F3217B2661DB0FC55439272 = {
-			buildPhases = (
-				"5E618435888B9D49F8540165",
-				"7EF0942E79C014DCEC8976BC");
-			dependencies = (
-				);
-			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
-			isa = PBXAggregateTarget;
-			buildRules = (
-);
-			productName = "Qt Preprocess";
-			name = "Qt Preprocess";
+		E8C543AB96796ECAA2E65C57 /* CS472 */ = {
+			isa = PBXGroup;
+			children = (
+				11264F0E1EB7E23E005569F7 /* fshader3a1.glsl */,
+				11264F0F1EB7E23E005569F7 /* fshader3a2.glsl */,
+				11264F101EB7E23E005569F7 /* fshader3b1.glsl */,
+				11264F111EB7E23E005569F7 /* fshader3b2.glsl */,
+				11264F121EB7E23E005569F7 /* fshader3b3.glsl */,
+				11264F131EB7E23E005569F7 /* fshader3b4.glsl */,
+				11264F141EB7E23E005569F7 /* fshader3b5.glsl */,
+				11264F151EB7E23E005569F7 /* vshader3a1.glsl */,
+				11264F161EB7E23E005569F7 /* vshader3a2.glsl */,
+				11264F171EB7E23E005569F7 /* vshader3b1.glsl */,
+				11264F181EB7E23E005569F7 /* vshader3b2.glsl */,
+				11264F191EB7E23E005569F7 /* vshader3b3.glsl */,
+				11264F1A1EB7E23E005569F7 /* vshader3b4.glsl */,
+				11264F1B1EB7E23E005569F7 /* vshader3b5.glsl */,
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = CS472;
+			sourceTree = "<group>";
 		};
-		114B704571EEC4AAC45A861F = {
-			isa = PBXTargetDependency;
-			target = "2F3217B2661DB0FC55439272";
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209BB1C741BC3B8AF51E6B46 /* CS472.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
 		};
-		4A65E9F7827D85765EACFE57 = {
-			buildPhases = (
-				"F7E50F631C51CD5B5DC0BC43",
-				"D1C883685E82D5676953459A",
-				"30414803F31797EB689AE508");
-			dependencies = (
-				"114B704571EEC4AAC45A861F");
-			productReference = "34F85EA19192DC3D4555555B";
-			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+		FF8C409087E1FACCA055498B /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				B0BD17172F02C1BF1EE27E21 /* Camera.cpp */,
+				29BDF2F3E337F975A00344CE /* Camera.h */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70EECE5C0F407ADE5B5F597 /* CS472 */ = {
 			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+			);
 			buildRules = (
-);
+			);
+			dependencies = (
+				9437C434C628C3D253CC80A0 /* PBXTargetDependency */,
+			);
+			name = CS472;
+			productName = CS472;
+			productReference = 209BB1C741BC3B8AF51E6B46 /* CS472.app */;
 			productType = "com.apple.product-type.application";
-			name = "CS472";
-			productName = "CS472";
 		};
-		3AA6C32AC930069E80220CF1 = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = "NO";
-				ENABLE_BITCODE = "NO";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
-				GCC_OPTIMIZATION_LEVEL = "0";
-				PRODUCT_NAME = "CS472";
-				QT_LIBRARY_SUFFIX = "_debug";
-				SDKROOT = "macosx";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
-				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
-				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/asif/Documents/graphics/hw3/CS472.skel/";
-				DYLIB_CURRENT_VERSION = "1.0.0";
-				DYLIB_COMPATIBILITY_VERSION = "1.0";
-				MACOSX_DEPLOYMENT_TARGET = "10.9";
-				HEADER_SEARCH_PATHS = (
-					".",
-					".",
-					"geometry",
-					"camera",
-					"lighting",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
-					".",
-					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
-					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
-				LIBRARY_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-					"/System/Library/Frameworks/");
-				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib");
-				OTHER_CFLAGS = (
-					"-pipe",
-					"-O2",
-					"-Wall",
-					"-W",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_OPENGL_LIB",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB");
-				OTHER_CPLUSPLUSFLAGS = (
-					"-pipe",
-					"-stdlib=libc++",
-					"-mmacosx-version-min=10.9",
-					"-O2",
-					"-std=gnu++11",
-					"-Wall",
-					"-W",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_OPENGL_LIB",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB");
-				OTHER_LDFLAGS = (
-						"-headerpad_max_install_names",
-						"-stdlib=libc++",
-						"-Wl,-rpath,@executable_path/../Frameworks",
-						"-mmacosx-version-min=10.9",
-						"-Wl,-rpath,/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-						"-F/Users/asif/Qt5.7.1/5.7/clang_64/lib");
-				ARCHS = "x86_64";
-			};
-			name = "Debug";
-		};
-		77418F46922677BB04ED38DD = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = "NO";
-				ENABLE_BITCODE = "NO";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
-				GCC_OPTIMIZATION_LEVEL = "0";
-				PRODUCT_NAME = "CS472";
-				QT_LIBRARY_SUFFIX = "_debug";
-				SDKROOT = "macosx";
-				PRODUCT_NAME = "CS472";
-			};
-			name = "Debug";
-		};
-		339EE1B2CC4FC24589A0EA95 = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = "YES";
-				ENABLE_BITCODE = "NO";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
-				PRODUCT_NAME = "CS472";
-				QT_LIBRARY_SUFFIX = "";
-				SDKROOT = "macosx";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
-				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
-				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/asif/Documents/graphics/hw3/CS472.skel/";
-				DYLIB_CURRENT_VERSION = "1.0.0";
-				DYLIB_COMPATIBILITY_VERSION = "1.0";
-				MACOSX_DEPLOYMENT_TARGET = "10.9";
-				HEADER_SEARCH_PATHS = (
-					".",
-					".",
-					"geometry",
-					"camera",
-					"lighting",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
-					".",
-					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
-					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
-				LIBRARY_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-					"/System/Library/Frameworks/");
-				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib");
-				OTHER_CFLAGS = (
-					"-pipe",
-					"-O2",
-					"-Wall",
-					"-W",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_OPENGL_LIB",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB");
-				OTHER_CPLUSPLUSFLAGS = (
-					"-pipe",
-					"-stdlib=libc++",
-					"-mmacosx-version-min=10.9",
-					"-O2",
-					"-std=gnu++11",
-					"-Wall",
-					"-W",
-					"-fPIC",
-					"-DQT_NO_DEBUG",
-					"-DQT_OPENGL_LIB",
-					"-DQT_WIDGETS_LIB",
-					"-DQT_GUI_LIB",
-					"-DQT_CORE_LIB");
-				OTHER_LDFLAGS = (
-						"-headerpad_max_install_names",
-						"-stdlib=libc++",
-						"-Wl,-rpath,@executable_path/../Frameworks",
-						"-mmacosx-version-min=10.9",
-						"-Wl,-rpath,/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-						"-F/Users/asif/Qt5.7.1/5.7/clang_64/lib");
-				ARCHS = "x86_64";
-			};
-			name = "Release";
-		};
-		6666AA5E688052234F6758D8 = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = "YES";
-				ENABLE_BITCODE = "NO";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
-				PRODUCT_NAME = "CS472";
-				QT_LIBRARY_SUFFIX = "";
-				SDKROOT = "macosx";
-				PRODUCT_NAME = "CS472";
-			};
-			name = "Release";
-		};
-		DAC4C1AA5EDEA1C85E9CA5E6 = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"3AA6C32AC930069E80220CF1",
-				"339EE1B2CC4FC24589A0EA95");
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release";
-		};
-		6CC3B5D2136C7CD6A5CF5A59 = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"77418F46922677BB04ED38DD",
-				"6666AA5E688052234F6758D8");
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release";
-		};
-		6DB9C3763D02B1415CD9D565 = {
-			hasScannedForEncodings = 1;
-			compatibilityVersion = "Xcode 3.2";
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
 			isa = PBXProject;
-			mainGroup = "E8C543AB96796ECAA2E65C57";
-			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
-			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			attributes = {
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CS472" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* CS472 */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"4A65E9F7827D85765EACFE57",
-				"2F3217B2661DB0FC55439272");
-			attributes = {
-				TargetAttributes = {
-				};
-			};
+				F70EECE5C0F407ADE5B5F597 /* CS472 */,
+				F5120FEBE5D2890395250703 /* Qt Preprocess */,
+			);
 		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11264F251EB7E23E005569F7 /* vshader3b1.glsl in Copy Bundle Resources */,
+				11264F1E1EB7E23E005569F7 /* fshader3b1.glsl in Copy Bundle Resources */,
+				11264F281EB7E23E005569F7 /* vshader3b4.glsl in Copy Bundle Resources */,
+				11264F231EB7E23E005569F7 /* vshader3a1.glsl in Copy Bundle Resources */,
+				11264F221EB7E23E005569F7 /* fshader3b5.glsl in Copy Bundle Resources */,
+				11264F1D1EB7E23E005569F7 /* fshader3a2.glsl in Copy Bundle Resources */,
+				11264F261EB7E23E005569F7 /* vshader3b2.glsl in Copy Bundle Resources */,
+				11264F1C1EB7E23E005569F7 /* fshader3a1.glsl in Copy Bundle Resources */,
+				11264F211EB7E23E005569F7 /* fshader3b4.glsl in Copy Bundle Resources */,
+				11264F271EB7E23E005569F7 /* vshader3b3.glsl in Copy Bundle Resources */,
+				11264F1F1EB7E23E005569F7 /* fshader3b2.glsl in Copy Bundle Resources */,
+				11264F201EB7E23E005569F7 /* fshader3b3.glsl in Copy Bundle Resources */,
+				11264F291EB7E23E005569F7 /* vshader3b5.glsl in Copy Bundle Resources */,
+				11264F241EB7E23E005569F7 /* vshader3a2.glsl in Copy Bundle Resources */,
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235843E2E59A90670F6670FF /* main.cpp in Compile Sources */,
+				312D3F48FB0EDC45093E7E83 /* MainWindow.cpp in Compile Sources */,
+				D9FEFD96CB8297647205F55F /* HW.cpp in Compile Sources */,
+				3CC90AB349501F45131F1E64 /* dummy.cpp in Compile Sources */,
+				305F53A895B2BD6DC918BF8C /* HW0a.cpp in Compile Sources */,
+				54712738B3756843A436FAE5 /* HW0b.cpp in Compile Sources */,
+				BBA5631EA496A0B02A8B169A /* HW0c.cpp in Compile Sources */,
+				91AE7ACFBAC3E0E29DDAB2CE /* HW1a.cpp in Compile Sources */,
+				7E3209A9AB79AA29EE674487 /* HW1b.cpp in Compile Sources */,
+				70672ED69F511BCB018A9922 /* HW2a.cpp in Compile Sources */,
+				EF70E39193AF44457DBE0E97 /* HW2b.cpp in Compile Sources */,
+				0E4559376778DAB79DB41C12 /* HW3a.cpp in Compile Sources */,
+				926A010694EF5646630ACB5A /* HW3b.cpp in Compile Sources */,
+				6F2A4A6F960735EB3C89CC17 /* Cube.cpp in Compile Sources */,
+				9991D65C3E8F82782ECD6497 /* Sphere.cpp in Compile Sources */,
+				7659E268E61A80C6D9417F45 /* Cylinder.cpp in Compile Sources */,
+				71D3D3525ED104ED34AF7DFB /* Cone.cpp in Compile Sources */,
+				84DB20330B3C36B193E6D34A /* Scene.cpp in Compile Sources */,
+				94ACF4F76BC5BA62AF67FC5E /* Light.cpp in Compile Sources */,
+				C4682243118AC3C826F2C8F2 /* Camera.cpp in Compile Sources */,
+				90DF866E037551D44027AB6B /* qrc_CS472.cpp in Compile Sources */,
+				BDB8DBAB4B9CB189C69623FE /* moc_MainWindow.cpp in Compile Sources */,
+				69B115433D14B411403FA4D9 /* moc_dummy.cpp in Compile Sources */,
+				0C6A3C2EF3BDBA5C9737F6D7 /* moc_HW0a.cpp in Compile Sources */,
+				0915F121484070E4F0C9073F /* moc_HW0b.cpp in Compile Sources */,
+				8A84FC14C7F8D3EEBFF3441D /* moc_HW0c.cpp in Compile Sources */,
+				F4351AE69CA18E08F428354D /* moc_HW1a.cpp in Compile Sources */,
+				FE989FFF662DF86A2546E1F0 /* moc_HW1b.cpp in Compile Sources */,
+				B95C24D36B4DDEDD8D94D75A /* moc_HW2a.cpp in Compile Sources */,
+				6CB17754F9F5E907D34EC30F /* moc_HW2b.cpp in Compile Sources */,
+				0B6EC16C6D48DEF4A71E6599 /* moc_HW3a.cpp in Compile Sources */,
+				EA363A6486EB4FABDBD6B9A7 /* moc_HW3b.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9437C434C628C3D253CC80A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5120FEBE5D2890395250703 /* Qt Preprocess */;
+			targetProxy = 11264F0D1EB7E044005569F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					geometry,
+					camera,
+					lighting,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-mmacosx-version-min=10.9",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-mmacosx-version-min=10.9",
+					"-Wl,-rpath,/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+					"-F/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+				);
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					.,
+					geometry,
+					camera,
+					lighting,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers,
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/Rahman/Qt5.7.1/5.7/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-mmacosx-version-min=10.9",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_OPENGL_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-mmacosx-version-min=10.9",
+					"-Wl,-rpath,/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+					"-F/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+				);
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+				SYMROOT = /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = CS472;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "CS472" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "CS472" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
 	};
-	rootObject = "6DB9C3763D02B1415CD9D565";
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
 }

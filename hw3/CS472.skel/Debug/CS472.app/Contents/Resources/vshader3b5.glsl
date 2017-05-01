@@ -18,6 +18,7 @@ uniform mat4 u_Projection;
 uniform mat4 u_View;
 uniform vec3 u_LightDirection;
 
+
 void main()
 {
 	// Output position of the vertex, in clip space : MVP * position
