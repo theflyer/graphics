@@ -110,7 +110,6 @@ void
 HW3b::resizeGL(int w, int h)
 {
 	// PUT YOUR CODE (use perspective projection)
-    // PUT YOUR CODE HERE
     m_winW = w;
     m_winH = h;
     
@@ -445,7 +444,7 @@ HW3b::resetMesh()
                 vec.setZ((s1 + s2) * 0.3f);
 				break;
 			case HILLFOUR:
-				
+				// PUT YOUR CODE HERE
                 s1 = sin((2 * M_PI * i) / (m_grid - 1));
                 s2 = sin((2 * M_PI * j) / (m_grid - 1));
                 vec.setZ((s1 + s2) * 0.3f);

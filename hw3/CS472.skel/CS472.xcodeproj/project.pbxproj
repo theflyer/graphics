@@ -13,672 +13,672 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Qt Qmake";
 			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/asif/Documents/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_makeqmake.mak";
+			shellScript = "make -C /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_makeqmake.mak";
 			showEnvVarsInLog = "0";
 		};
-		67549AB6DC403A8675D346B4 = {
+		8A8640232379E4A6A14FB4AA = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/main.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/main.cpp";
 			name = "main.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		0536EA79A312C06BE3E75906 = {
-			fileRef = "67549AB6DC403A8675D346B4";
+		235843E2E59A90670F6670FF = {
+			fileRef = "8A8640232379E4A6A14FB4AA";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		DC02059AE7018F705F584078 = {
+		BF1B76F99E99C9C37BAF9BCA = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/MainWindow.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/MainWindow.cpp";
 			name = "MainWindow.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		9BC2EB2F83AD1BCEE315CA4F = {
-			fileRef = "DC02059AE7018F705F584078";
+		312D3F48FB0EDC45093E7E83 = {
+			fileRef = "BF1B76F99E99C9C37BAF9BCA";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		255197F19A241B4BD9583C01 = {
+		FEAA7FA90BA35DE4878AAF8D = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/HW.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/HW.cpp";
 			name = "HW.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		6252B35949A33E602489D776 = {
-			fileRef = "255197F19A241B4BD9583C01";
+		D9FEFD96CB8297647205F55F = {
+			fileRef = "FEAA7FA90BA35DE4878AAF8D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		F64438E50B812819F13AEB86 = {
+		58B2ECF27C7F1E742981BCEA = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/dummy.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/dummy.cpp";
 			name = "dummy.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		CD1B0BA1764069AFFC80EB56 = {
-			fileRef = "F64438E50B812819F13AEB86";
+		3CC90AB349501F45131F1E64 = {
+			fileRef = "58B2ECF27C7F1E742981BCEA";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		783D28DA54F00A8016EAFB90 = {
+		75D67AE0A20ED0C742D5A911 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0a.cpp";
 			name = "HW0a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		58463F01C63F592AE8132B71 = {
-			fileRef = "783D28DA54F00A8016EAFB90";
+		305F53A895B2BD6DC918BF8C = {
+			fileRef = "75D67AE0A20ED0C742D5A911";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		1C2B5B016D246A57755D86CB = {
+		96BE259BFA98EEF4C253E69C = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0b.cpp";
 			name = "HW0b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		ED1A4F683E055635DC92CF84 = {
-			fileRef = "1C2B5B016D246A57755D86CB";
+		54712738B3756843A436FAE5 = {
+			fileRef = "96BE259BFA98EEF4C253E69C";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		814B2AB1F730B2E3727636C4 = {
+		EFAF1A97F6843D9FAB4C6087 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0c.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0c.cpp";
 			name = "HW0c.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		E32F252C30393C3587D3AB9C = {
-			fileRef = "814B2AB1F730B2E3727636C4";
+		BBA5631EA496A0B02A8B169A = {
+			fileRef = "EFAF1A97F6843D9FAB4C6087";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		C44C90130D872C7E52EEC5B2 = {
+		EEC48E60D4713A9FF8783C5A = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1a.cpp";
 			name = "HW1a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		D4E7D7310AB88805D06C2322 = {
-			fileRef = "C44C90130D872C7E52EEC5B2";
+		91AE7ACFBAC3E0E29DDAB2CE = {
+			fileRef = "EEC48E60D4713A9FF8783C5A";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		7F6015621EA37641DC0379ED = {
+		77CA1F9FEAAE3BF47F3AD032 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1b.cpp";
 			name = "HW1b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		DBB4D9114DD4EC05B82629E9 = {
-			fileRef = "7F6015621EA37641DC0379ED";
+		7E3209A9AB79AA29EE674487 = {
+			fileRef = "77CA1F9FEAAE3BF47F3AD032";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		913397DF783064E252AD6F40 = {
+		BA93ABBE065A57ECEB3D8B13 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2a.cpp";
 			name = "HW2a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		A2699502F5C162438813BF17 = {
-			fileRef = "913397DF783064E252AD6F40";
+		70672ED69F511BCB018A9922 = {
+			fileRef = "BA93ABBE065A57ECEB3D8B13";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		EA4F8D476FC29A0D01A6A191 = {
+		5BEB3563888F8C1256B007F9 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2b.cpp";
 			name = "HW2b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		736AE8D80EB46675B5EFDD6A = {
-			fileRef = "EA4F8D476FC29A0D01A6A191";
+		EF70E39193AF44457DBE0E97 = {
+			fileRef = "5BEB3563888F8C1256B007F9";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		B8E8F41387DFEFB17EB29460 = {
+		81DC98CBD6832CD5AA391A06 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3a.cpp";
 			name = "HW3a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		18182E6F977549785DC19A31 = {
-			fileRef = "B8E8F41387DFEFB17EB29460";
+		0E4559376778DAB79DB41C12 = {
+			fileRef = "81DC98CBD6832CD5AA391A06";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		229B53EAAAD8B3F0B2609315 = {
+		80CC8DFB79D978C257856C91 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3b.cpp";
 			name = "HW3b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		D4F2AF2E78155AFDDE5E9BA0 = {
-			fileRef = "229B53EAAAD8B3F0B2609315";
+		926A010694EF5646630ACB5A = {
+			fileRef = "80CC8DFB79D978C257856C91";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		BD01D80F3D79486C8834DC33 = {
+		593291C2459118DA3D90D8D5 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cube.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cube.cpp";
 			name = "Cube.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		9F0F629B75D4388C679312F6 = {
-			fileRef = "BD01D80F3D79486C8834DC33";
+		6F2A4A6F960735EB3C89CC17 = {
+			fileRef = "593291C2459118DA3D90D8D5";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		CB4E57107AEECD5F4F1407CA = {
+		BB9BAFCA8BD2D03FA0678CD4 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Sphere.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Sphere.cpp";
 			name = "Sphere.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		A8850A73E39E79F403A7DC19 = {
-			fileRef = "CB4E57107AEECD5F4F1407CA";
+		9991D65C3E8F82782ECD6497 = {
+			fileRef = "BB9BAFCA8BD2D03FA0678CD4";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		C7ADCCDAE51BC7FEB3E16872 = {
+		C216C218CF685D97852A43B2 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cylinder.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cylinder.cpp";
 			name = "Cylinder.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		24CE43BCED2926FE307C1F23 = {
-			fileRef = "C7ADCCDAE51BC7FEB3E16872";
+		7659E268E61A80C6D9417F45 = {
+			fileRef = "C216C218CF685D97852A43B2";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		E3EB4E71800A4C99A9124B71 = {
+		F90C77D09806A8E63913E4CE = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cone.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cone.cpp";
 			name = "Cone.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		64DD5D01D8FCB93F47F54384 = {
-			fileRef = "E3EB4E71800A4C99A9124B71";
+		71D3D3525ED104ED34AF7DFB = {
+			fileRef = "F90C77D09806A8E63913E4CE";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		833E52D74773BAE1F089061D = {
+		3750B702DDE96C988A8F0760 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Scene.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Scene.cpp";
 			name = "Scene.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		D1E67F96255CF2D6B1D52ECD = {
-			fileRef = "833E52D74773BAE1F089061D";
+		84DB20330B3C36B193E6D34A = {
+			fileRef = "3750B702DDE96C988A8F0760";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		FF7E64374E0852AE13FE2B89 = {
+		805537695CA12A05EB8FC52E = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/lighting/Light.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/lighting/Light.cpp";
 			name = "Light.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		04FEBCA1AA0382221E60672E = {
-			fileRef = "FF7E64374E0852AE13FE2B89";
+		94ACF4F76BC5BA62AF67FC5E = {
+			fileRef = "805537695CA12A05EB8FC52E";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		1EEB1CA4E118C85D62885821 = {
+		B0BD17172F02C1BF1EE27E21 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/camera/Camera.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/camera/Camera.cpp";
 			name = "Camera.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		B038EEDB307A562D7F57A35B = {
-			fileRef = "1EEB1CA4E118C85D62885821";
+		C4682243118AC3C826F2C8F2 = {
+			fileRef = "B0BD17172F02C1BF1EE27E21";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		A2A6FBB967E7BF6CFA4EE519 = {
+		CFCEBF42E29A0BA336759124 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.icns";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/CS472.icns";
 			name = "CS472.icns";
 			sourceTree = "<absolute>";
 		};
-		13A7EFCA07DA49A609B79514 = {
-			fileRef = "A2A6FBB967E7BF6CFA4EE519";
+		CEC2C0D5F3C2257DD381CE68 = {
+			fileRef = "CFCEBF42E29A0BA336759124";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		0B6B97560AAE77B0855A7C06 = {
+		7A4C1BA37ADA393E9502C9FC = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/qrc_CS472.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/qrc_CS472.cpp";
 			name = "qrc_CS472.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		702BE7B6CF4154964703EB37 = {
-			fileRef = "0B6B97560AAE77B0855A7C06";
+		90DF866E037551D44027AB6B = {
+			fileRef = "7A4C1BA37ADA393E9502C9FC";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		D624FCFCCA7CD4625AC2315C = {
+		6537C162ED36A3FACC22B392 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_MainWindow.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_MainWindow.cpp";
 			name = "moc_MainWindow.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		DD74D3EE9400A2157777890B = {
-			fileRef = "D624FCFCCA7CD4625AC2315C";
+		BDB8DBAB4B9CB189C69623FE = {
+			fileRef = "6537C162ED36A3FACC22B392";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		682264702091494CE68B6910 = {
+		7FEC604B5DEA128CDA165EE3 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_dummy.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_dummy.cpp";
 			name = "moc_dummy.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		32C41C8DE15A903DFFE910B0 = {
-			fileRef = "682264702091494CE68B6910";
+		69B115433D14B411403FA4D9 = {
+			fileRef = "7FEC604B5DEA128CDA165EE3";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		62423EE76E31F51D6C0AFD87 = {
+		D1E64E7724BA951EC56047EE = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW0a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW0a.cpp";
 			name = "moc_HW0a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		58B2A4B44FB43678FEA69675 = {
-			fileRef = "62423EE76E31F51D6C0AFD87";
+		0C6A3C2EF3BDBA5C9737F6D7 = {
+			fileRef = "D1E64E7724BA951EC56047EE";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		F13D12BCA0C589643CF414DE = {
+		2E116557107DF2CFB8672840 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW0b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW0b.cpp";
 			name = "moc_HW0b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		A0B3B3BECA074A91C3C378CA = {
-			fileRef = "F13D12BCA0C589643CF414DE";
+		0915F121484070E4F0C9073F = {
+			fileRef = "2E116557107DF2CFB8672840";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		07E0A39B88516E408A259DC1 = {
+		8E7C0A4A41BBA1AA9CD60F2E = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW0c.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW0c.cpp";
 			name = "moc_HW0c.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		54BEA89C0F20201BC969EDFB = {
-			fileRef = "07E0A39B88516E408A259DC1";
+		8A84FC14C7F8D3EEBFF3441D = {
+			fileRef = "8E7C0A4A41BBA1AA9CD60F2E";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		7E3EF9D5EEF2A5209CC7B7CF = {
+		0D28FC811AFD99276F5FDA6A = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW1a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW1a.cpp";
 			name = "moc_HW1a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		4BBAE13E61C0B3A37F0DC68F = {
-			fileRef = "7E3EF9D5EEF2A5209CC7B7CF";
+		F4351AE69CA18E08F428354D = {
+			fileRef = "0D28FC811AFD99276F5FDA6A";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		48EAE90400A3C1693555BF82 = {
+		EA5CE42BAECE4E2A795A9C7D = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW1b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW1b.cpp";
 			name = "moc_HW1b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		4E3031864EBBCEA73C2A6EF2 = {
-			fileRef = "48EAE90400A3C1693555BF82";
+		FE989FFF662DF86A2546E1F0 = {
+			fileRef = "EA5CE42BAECE4E2A795A9C7D";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		CF689A6A3B4E18C7076F5C30 = {
+		BB8C85109225C8876DEB18D6 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW2a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW2a.cpp";
 			name = "moc_HW2a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		F9AD53723B9265D60E11925C = {
-			fileRef = "CF689A6A3B4E18C7076F5C30";
+		B95C24D36B4DDEDD8D94D75A = {
+			fileRef = "BB8C85109225C8876DEB18D6";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		0ABE288AF6B89F7AC2F8A3AB = {
+		420A0C9D79BBCD11471820F5 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW2b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW2b.cpp";
 			name = "moc_HW2b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		472CC3F3FB6B572FE39C0FFD = {
-			fileRef = "0ABE288AF6B89F7AC2F8A3AB";
+		6CB17754F9F5E907D34EC30F = {
+			fileRef = "420A0C9D79BBCD11471820F5";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		273B99FADEDA2C283C1283A8 = {
+		2813A9C44CF17BF44CF7E804 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW3a.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW3a.cpp";
 			name = "moc_HW3a.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		43ABB08A9369EB6121635142 = {
-			fileRef = "273B99FADEDA2C283C1283A8";
+		0B6EC16C6D48DEF4A71E6599 = {
+			fileRef = "2813A9C44CF17BF44CF7E804";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		ED2B3E86E1518D8D2FAE047A = {
+		AEC4538F9B3DF1AE4A60751B = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/moc_HW3b.cpp";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/moc_HW3b.cpp";
 			name = "moc_HW3b.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		6C86DD1F322DEA535ADD5C61 = {
-			fileRef = "ED2B3E86E1518D8D2FAE047A";
+		EA363A6486EB4FABDBD6B9A7 = {
+			fileRef = "AEC4538F9B3DF1AE4A60751B";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		0371770F99A5085C17590CDE = {
+		67F6AC9B81FD4AF910888671 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/MainWindow.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/MainWindow.h";
 			name = "MainWindow.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		674FF9A896882CC505119E83 = {
+		EC7740513394BB7EB6BE6EC6 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/HW.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/HW.h";
 			name = "HW.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		DBC1AA2CE3140F8EC3DB43B6 = {
+		92F5B8CC7E68BC3AC93B579A = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/dummy.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/dummy.h";
 			name = "dummy.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		32AAC734C47C351C3E7548A7 = {
+		982A3F26027926D50D1988B5 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0a.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0a.h";
 			name = "HW0a.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		C603B826E344A854DCAEF888 = {
+		DE59FBB76CAB519A14998860 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0b.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0b.h";
 			name = "HW0b.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		148924FD411BB71D3E552824 = {
+		31EC08F4F541EEF0083D33C1 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw0/HW0c.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw0/HW0c.h";
 			name = "HW0c.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		72C3AE155032DA5FE117A36F = {
+		74EB1BB1700D4A67966A060C = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1a.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1a.h";
 			name = "HW1a.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		239A7F4252F470C434181FDA = {
+		0C7A9C00B6235015B44C78EF = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw1/HW1b.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw1/HW1b.h";
 			name = "HW1b.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		71AE14539FDB5F77BBCD7F54 = {
+		D14680F59AAB692100366E89 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2a.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2a.h";
 			name = "HW2a.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		966E0DE35618BDD9C0139073 = {
+		AE9291EAD3338D02E39E42DA = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw2/HW2b.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw2/HW2b.h";
 			name = "HW2b.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		F21FEDF139D1AECB7E4BE061 = {
+		8DC65AB678481AC48F0F6F50 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3a.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3a.h";
 			name = "HW3a.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		DA89234067404965DD94BCA2 = {
+		A7175991D8841D71F7FEC925 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/hw3/HW3b.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/hw3/HW3b.h";
 			name = "HW3b.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		6168DF389B6501F4CFE2E51A = {
+		0B4EA3839119FD9B45987899 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Geometry.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Geometry.h";
 			name = "Geometry.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		BDFD83FFAFCD69839247195E = {
+		79D39E63255E3658EAF5BC06 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cube.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cube.h";
 			name = "Cube.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		0E97A17FBEFB25033E021A74 = {
+		72E9A3E48AF8A9B0F6BEC252 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Sphere.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Sphere.h";
 			name = "Sphere.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		F84CEACDE69DE1D9F064E72F = {
+		F2325EAFCC4AEC69178F88B6 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cylinder.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cylinder.h";
 			name = "Cylinder.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		F43A1F1485B9631B3B8C2714 = {
+		39EA568418D70EA0B20F4819 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Cone.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Cone.h";
 			name = "Cone.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		B75C71A025D6F34BC926BBE9 = {
+		DFCED43049A514073BEEAB4E = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/geometry/Scene.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/geometry/Scene.h";
 			name = "Scene.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		BCF4BA25AC323103113A1593 = {
+		C01AB20A9215597F79DA398A = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/lighting/Light.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/lighting/Light.h";
 			name = "Light.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		8B90D004CED10698D93C7CA0 = {
+		29BDF2F3E337F975A00344CE = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/camera/Camera.h";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/camera/Camera.h";
 			name = "Camera.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		746E183D6033C3B18BBF6626 = {
+		51A2F34F05E929621A30FFDE = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.pro";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/CS472.pro";
 			name = "CS472.pro";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "text";
 		};
-		E6B7CC840D6301A2EB5B7D16 = {
+		370FF8DD1DEE80BFC78BCAF9 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/.qmake.stash";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/.qmake.stash";
 			name = ".qmake.stash";
 			sourceTree = "<absolute>";
 		};
-		7AE4AC1733B49F29C529FFD1 = {
+		FC18995D05EB6DCBF737D987 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.qrc";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/CS472.qrc";
 			name = "CS472.qrc";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "text";
 		};
-		7AE4AC1733B49F29C529FFD1 = {
+		FC18995D05EB6DCBF737D987 = {
 			isa = PBXFileReference;
-			path = "/Users/asif/Documents/graphics/hw3/CS472.skel/CS472.qrc";
+			path = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/CS472.qrc";
 			name = "CS472.qrc";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "text";
 		};
-		3CB85226D341D9A6B0C74A6E = {
-			fileRef = "7AE4AC1733B49F29C529FFD1";
+		9FDDCFE418FAF65E5651D268 = {
+			fileRef = "FC18995D05EB6DCBF737D987";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
@@ -688,110 +688,110 @@
 		25B08E2869634E9BCBA333A2 = {
 			isa = PBXGroup;
 			children = (
-				"0B6B97560AAE77B0855A7C06",
-				"D624FCFCCA7CD4625AC2315C",
-				"682264702091494CE68B6910",
-				"62423EE76E31F51D6C0AFD87",
-				"F13D12BCA0C589643CF414DE",
-				"07E0A39B88516E408A259DC1",
-				"7E3EF9D5EEF2A5209CC7B7CF",
-				"48EAE90400A3C1693555BF82",
-				"CF689A6A3B4E18C7076F5C30",
-				"0ABE288AF6B89F7AC2F8A3AB",
-				"273B99FADEDA2C283C1283A8",
-				"ED2B3E86E1518D8D2FAE047A");
+				"7A4C1BA37ADA393E9502C9FC",
+				"6537C162ED36A3FACC22B392",
+				"7FEC604B5DEA128CDA165EE3",
+				"D1E64E7724BA951EC56047EE",
+				"2E116557107DF2CFB8672840",
+				"8E7C0A4A41BBA1AA9CD60F2E",
+				"0D28FC811AFD99276F5FDA6A",
+				"EA5CE42BAECE4E2A795A9C7D",
+				"BB8C85109225C8876DEB18D6",
+				"420A0C9D79BBCD11471820F5",
+				"2813A9C44CF17BF44CF7E804",
+				"AEC4538F9B3DF1AE4A60751B");
 			name = "Generated Sources";
 			sourceTree = "<group>";
 		};
 		FF8C409087E1FACCA055498B = {
 			isa = PBXGroup;
 			children = (
-				"1EEB1CA4E118C85D62885821",
-				"8B90D004CED10698D93C7CA0");
+				"B0BD17172F02C1BF1EE27E21",
+				"29BDF2F3E337F975A00344CE");
 			name = "camera";
 			sourceTree = "<group>";
 		};
 		24318BA31F631EB3F0026335 = {
 			isa = PBXGroup;
 			children = (
-				"BD01D80F3D79486C8834DC33",
-				"CB4E57107AEECD5F4F1407CA",
-				"C7ADCCDAE51BC7FEB3E16872",
-				"E3EB4E71800A4C99A9124B71",
-				"833E52D74773BAE1F089061D",
-				"6168DF389B6501F4CFE2E51A",
-				"BDFD83FFAFCD69839247195E",
-				"0E97A17FBEFB25033E021A74",
-				"F84CEACDE69DE1D9F064E72F",
-				"F43A1F1485B9631B3B8C2714",
-				"B75C71A025D6F34BC926BBE9");
+				"593291C2459118DA3D90D8D5",
+				"BB9BAFCA8BD2D03FA0678CD4",
+				"C216C218CF685D97852A43B2",
+				"F90C77D09806A8E63913E4CE",
+				"3750B702DDE96C988A8F0760",
+				"0B4EA3839119FD9B45987899",
+				"79D39E63255E3658EAF5BC06",
+				"72E9A3E48AF8A9B0F6BEC252",
+				"F2325EAFCC4AEC69178F88B6",
+				"39EA568418D70EA0B20F4819",
+				"DFCED43049A514073BEEAB4E");
 			name = "geometry";
 			sourceTree = "<group>";
 		};
 		5B4C135899C5C2F6FFFD7ADB = {
 			isa = PBXGroup;
 			children = (
-				"783D28DA54F00A8016EAFB90",
-				"1C2B5B016D246A57755D86CB",
-				"814B2AB1F730B2E3727636C4",
-				"32AAC734C47C351C3E7548A7",
-				"C603B826E344A854DCAEF888",
-				"148924FD411BB71D3E552824");
+				"75D67AE0A20ED0C742D5A911",
+				"96BE259BFA98EEF4C253E69C",
+				"EFAF1A97F6843D9FAB4C6087",
+				"982A3F26027926D50D1988B5",
+				"DE59FBB76CAB519A14998860",
+				"31EC08F4F541EEF0083D33C1");
 			name = "hw0";
 			sourceTree = "<group>";
 		};
 		3C77C658827F4A07ABF9D58B = {
 			isa = PBXGroup;
 			children = (
-				"C44C90130D872C7E52EEC5B2",
-				"7F6015621EA37641DC0379ED",
-				"72C3AE155032DA5FE117A36F",
-				"239A7F4252F470C434181FDA");
+				"EEC48E60D4713A9FF8783C5A",
+				"77CA1F9FEAAE3BF47F3AD032",
+				"74EB1BB1700D4A67966A060C",
+				"0C7A9C00B6235015B44C78EF");
 			name = "hw1";
 			sourceTree = "<group>";
 		};
 		8D1A7173215F622A1D3A66B1 = {
 			isa = PBXGroup;
 			children = (
-				"913397DF783064E252AD6F40",
-				"EA4F8D476FC29A0D01A6A191",
-				"71AE14539FDB5F77BBCD7F54",
-				"966E0DE35618BDD9C0139073");
+				"BA93ABBE065A57ECEB3D8B13",
+				"5BEB3563888F8C1256B007F9",
+				"D14680F59AAB692100366E89",
+				"AE9291EAD3338D02E39E42DA");
 			name = "hw2";
 			sourceTree = "<group>";
 		};
 		0A31DA8FFB6A3F21532CA67A = {
 			isa = PBXGroup;
 			children = (
-				"B8E8F41387DFEFB17EB29460",
-				"229B53EAAAD8B3F0B2609315",
-				"F21FEDF139D1AECB7E4BE061",
-				"DA89234067404965DD94BCA2");
+				"81DC98CBD6832CD5AA391A06",
+				"80CC8DFB79D978C257856C91",
+				"8DC65AB678481AC48F0F6F50",
+				"A7175991D8841D71F7FEC925");
 			name = "hw3";
 			sourceTree = "<group>";
 		};
 		2156C9B67EB6B3918607349C = {
 			isa = PBXGroup;
 			children = (
-				"FF7E64374E0852AE13FE2B89",
-				"BCF4BA25AC323103113A1593");
+				"805537695CA12A05EB8FC52E",
+				"C01AB20A9215597F79DA398A");
 			name = "lighting";
 			sourceTree = "<group>";
 		};
 		87DF60DE337FB58864343E39 = {
 			isa = PBXGroup;
 			children = (
-				"7AE4AC1733B49F29C529FFD1");
+				"FC18995D05EB6DCBF737D987");
 			name = "Resources";
 			sourceTree = "<group>";
 		};
 		2EB56BE3C2D93CDAB0C52E67 = {
 			isa = PBXGroup;
 			children = (
-				"67549AB6DC403A8675D346B4",
-				"DC02059AE7018F705F584078",
-				"255197F19A241B4BD9583C01",
-				"F64438E50B812819F13AEB86",
+				"8A8640232379E4A6A14FB4AA",
+				"BF1B76F99E99C9C37BAF9BCA",
+				"FEAA7FA90BA35DE4878AAF8D",
+				"58B2ECF27C7F1E742981BCEA",
 				"5B4C135899C5C2F6FFFD7ADB",
 				"3C77C658827F4A07ABF9D58B",
 				"8D1A7173215F622A1D3A66B1",
@@ -799,19 +799,19 @@
 				"24318BA31F631EB3F0026335",
 				"2156C9B67EB6B3918607349C",
 				"FF8C409087E1FACCA055498B",
-				"A2A6FBB967E7BF6CFA4EE519",
-				"0371770F99A5085C17590CDE",
-				"674FF9A896882CC505119E83",
-				"DBC1AA2CE3140F8EC3DB43B6");
+				"CFCEBF42E29A0BA336759124",
+				"67F6AC9B81FD4AF910888671",
+				"EC7740513394BB7EB6BE6EC6",
+				"92F5B8CC7E68BC3AC93B579A");
 			name = "Sources";
 			sourceTree = "<group>";
 		};
 		74B182DB50CB5611B5C1C297 = {
 			isa = PBXGroup;
 			children = (
-				"746E183D6033C3B18BBF6626",
-				"E6B7CC840D6301A2EB5B7D16",
-				"7AE4AC1733B49F29C529FFD1");
+				"51A2F34F05E929621A30FFDE",
+				"370FF8DD1DEE80BFC78BCAF9",
+				"FC18995D05EB6DCBF737D987");
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
@@ -823,100 +823,100 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Qt Preprocessors";
 			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/asif/Documents/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_preprocess.mak";
+			shellScript = "make -C /Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/ -f CS472.xcodeproj/qt_preprocess.mak";
 			showEnvVarsInLog = "0";
 		};
 		F7E50F631C51CD5B5DC0BC43 = {
 			buildActionMask = 2147483647;
 			files = (
-				"0536EA79A312C06BE3E75906",
-				"9BC2EB2F83AD1BCEE315CA4F",
-				"6252B35949A33E602489D776",
-				"CD1B0BA1764069AFFC80EB56",
-				"58463F01C63F592AE8132B71",
-				"ED1A4F683E055635DC92CF84",
-				"E32F252C30393C3587D3AB9C",
-				"D4E7D7310AB88805D06C2322",
-				"DBB4D9114DD4EC05B82629E9",
-				"A2699502F5C162438813BF17",
-				"736AE8D80EB46675B5EFDD6A",
-				"18182E6F977549785DC19A31",
-				"D4F2AF2E78155AFDDE5E9BA0",
-				"9F0F629B75D4388C679312F6",
-				"A8850A73E39E79F403A7DC19",
-				"24CE43BCED2926FE307C1F23",
-				"64DD5D01D8FCB93F47F54384",
-				"D1E67F96255CF2D6B1D52ECD",
-				"04FEBCA1AA0382221E60672E",
-				"B038EEDB307A562D7F57A35B",
-				"702BE7B6CF4154964703EB37",
-				"DD74D3EE9400A2157777890B",
-				"32C41C8DE15A903DFFE910B0",
-				"58B2A4B44FB43678FEA69675",
-				"A0B3B3BECA074A91C3C378CA",
-				"54BEA89C0F20201BC969EDFB",
-				"4BBAE13E61C0B3A37F0DC68F",
-				"4E3031864EBBCEA73C2A6EF2",
-				"F9AD53723B9265D60E11925C",
-				"472CC3F3FB6B572FE39C0FFD",
-				"43ABB08A9369EB6121635142",
-				"6C86DD1F322DEA535ADD5C61");
+				"235843E2E59A90670F6670FF",
+				"312D3F48FB0EDC45093E7E83",
+				"D9FEFD96CB8297647205F55F",
+				"3CC90AB349501F45131F1E64",
+				"305F53A895B2BD6DC918BF8C",
+				"54712738B3756843A436FAE5",
+				"BBA5631EA496A0B02A8B169A",
+				"91AE7ACFBAC3E0E29DDAB2CE",
+				"7E3209A9AB79AA29EE674487",
+				"70672ED69F511BCB018A9922",
+				"EF70E39193AF44457DBE0E97",
+				"0E4559376778DAB79DB41C12",
+				"926A010694EF5646630ACB5A",
+				"6F2A4A6F960735EB3C89CC17",
+				"9991D65C3E8F82782ECD6497",
+				"7659E268E61A80C6D9417F45",
+				"71D3D3525ED104ED34AF7DFB",
+				"84DB20330B3C36B193E6D34A",
+				"94ACF4F76BC5BA62AF67FC5E",
+				"C4682243118AC3C826F2C8F2",
+				"90DF866E037551D44027AB6B",
+				"BDB8DBAB4B9CB189C69623FE",
+				"69B115433D14B411403FA4D9",
+				"0C6A3C2EF3BDBA5C9737F6D7",
+				"0915F121484070E4F0C9073F",
+				"8A84FC14C7F8D3EEBFF3441D",
+				"F4351AE69CA18E08F428354D",
+				"FE989FFF662DF86A2546E1F0",
+				"B95C24D36B4DDEDD8D94D75A",
+				"6CB17754F9F5E907D34EC30F",
+				"0B6EC16C6D48DEF4A71E6599",
+				"EA363A6486EB4FABDBD6B9A7");
 			isa = PBXSourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Compile Sources";
 		};
-		3BBC1A4742B728BC22924A0F = {
+		DFC66F21432D87B25B0EA461 = {
 			isa = PBXFileReference;
 			name = "QtOpenGL.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework";
+			path = "/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework";
 			refType = 0;
 			sourceTree = "<absolute>";
 			lastKnownFileType = "wrapper.framework";
 		};
-		5B4F2D4402C46D1F457F7B14 = {
-			fileRef = "3BBC1A4742B728BC22924A0F";
+		04BA5DA5A1D3C65917CA0BA9 = {
+			fileRef = "DFC66F21432D87B25B0EA461";
 			isa = PBXBuildFile;
 			settings = {
 			};
 		};
-		6AB7F6F6A21E22DBFFE3823E = {
+		45837D15EA37FDB90F40AC3F = {
 			isa = PBXFileReference;
 			name = "QtWidgets.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework";
+			path = "/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework";
 			refType = 0;
 			sourceTree = "<absolute>";
 			lastKnownFileType = "wrapper.framework";
 		};
-		6D63BBA8F4009E5582604225 = {
-			fileRef = "6AB7F6F6A21E22DBFFE3823E";
+		BF83C4F1FB311CA5003C9A49 = {
+			fileRef = "45837D15EA37FDB90F40AC3F";
 			isa = PBXBuildFile;
 			settings = {
 			};
 		};
-		DA78C54300C11FC5242BE879 = {
+		6AD9C99BD4D2A9FF7E2672BB = {
 			isa = PBXFileReference;
 			name = "QtGui.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtGui.framework";
+			path = "/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtGui.framework";
 			refType = 0;
 			sourceTree = "<absolute>";
 			lastKnownFileType = "wrapper.framework";
 		};
-		175D50C4B4BDD37B480096A9 = {
-			fileRef = "DA78C54300C11FC5242BE879";
+		C30F6CE44CB5A5DB3F47A355 = {
+			fileRef = "6AD9C99BD4D2A9FF7E2672BB";
 			isa = PBXBuildFile;
 			settings = {
 			};
 		};
-		6001D14E4BF30180CECA5BCD = {
+		AE1EB5DFE23C6F3298A7AA85 = {
 			isa = PBXFileReference;
 			name = "QtCore.framework";
-			path = "/Users/asif/Qt5.7.1/5.7/clang_64/lib/QtCore.framework";
+			path = "/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtCore.framework";
 			refType = 0;
 			sourceTree = "<absolute>";
 			lastKnownFileType = "wrapper.framework";
 		};
-		F68C2FC2B698C2F4F0AC2D72 = {
-			fileRef = "6001D14E4BF30180CECA5BCD";
+		1973CD3C44243F680474ED93 = {
+			fileRef = "AE1EB5DFE23C6F3298A7AA85";
 			isa = PBXBuildFile;
 			settings = {
 			};
@@ -979,10 +979,10 @@
 		};
 		AF39DD055C3EF8226FBE929D = {
 			children = (
-				"3BBC1A4742B728BC22924A0F",
-				"6AB7F6F6A21E22DBFFE3823E",
-				"DA78C54300C11FC5242BE879",
-				"6001D14E4BF30180CECA5BCD",
+				"DFC66F21432D87B25B0EA461",
+				"45837D15EA37FDB90F40AC3F",
+				"6AD9C99BD4D2A9FF7E2672BB",
+				"AE1EB5DFE23C6F3298A7AA85",
 				"2B774D8E4178765CE52EAAF5",
 				"A1A67BEAA744704B29168D39",
 				"D4B32C2222F82AC56BADEB21",
@@ -994,10 +994,10 @@
 		D1C883685E82D5676953459A = {
 			buildActionMask = 2147483647;
 			files = (
-				"5B4F2D4402C46D1F457F7B14",
-				"6D63BBA8F4009E5582604225",
-				"175D50C4B4BDD37B480096A9",
-				"F68C2FC2B698C2F4F0AC2D72",
+				"04BA5DA5A1D3C65917CA0BA9",
+				"BF83C4F1FB311CA5003C9A49",
+				"C30F6CE44CB5A5DB3F47A355",
+				"1973CD3C44243F680474ED93",
 				"A99B2AA0F9CBBDD12BA126A4",
 				"8D267F2E4776F0ECA2F49DC8",
 				"8771A8C96E9C391044035D99",
@@ -1014,7 +1014,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Copy Bundle Resources";
 		};
-		34F85EA19192DC3D4555555B = {
+		209BB1C741BC3B8AF51E6B46 = {
 			isa = PBXFileReference;
 			includeInIndex = 0;
 			explicitFileType = "wrapper.application";
@@ -1023,7 +1023,7 @@
 		};
 		FE0A091FDBFB3E9C31B7A1BD = {
 			children = (
-				"34F85EA19192DC3D4555555B");
+				"209BB1C741BC3B8AF51E6B46");
 			isa = PBXGroup;
 			name = "Products";
 			sourceTree = "<group>";
@@ -1040,7 +1040,7 @@
 			name = "CS472";
 			sourceTree = "<group>";
 		};
-		2F3217B2661DB0FC55439272 = {
+		F5120FEBE5D2890395250703 = {
 			buildPhases = (
 				"5E618435888B9D49F8540165",
 				"7EF0942E79C014DCEC8976BC");
@@ -1053,18 +1053,18 @@
 			productName = "Qt Preprocess";
 			name = "Qt Preprocess";
 		};
-		114B704571EEC4AAC45A861F = {
+		9437C434C628C3D253CC80A0 = {
 			isa = PBXTargetDependency;
-			target = "2F3217B2661DB0FC55439272";
+			target = "F5120FEBE5D2890395250703";
 		};
-		4A65E9F7827D85765EACFE57 = {
+		F70EECE5C0F407ADE5B5F597 = {
 			buildPhases = (
 				"F7E50F631C51CD5B5DC0BC43",
 				"D1C883685E82D5676953459A",
 				"30414803F31797EB689AE508");
 			dependencies = (
-				"114B704571EEC4AAC45A861F");
-			productReference = "34F85EA19192DC3D4555555B";
+				"9437C434C628C3D253CC80A0");
+			productReference = "209BB1C741BC3B8AF51E6B46";
 			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
 			isa = PBXNativeTarget;
 			buildRules = (
@@ -1087,7 +1087,7 @@
 				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
 				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
 				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/asif/Documents/graphics/hw3/CS472.skel/";
+				SYMROOT = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/";
 				DYLIB_CURRENT_VERSION = "1.0.0";
 				DYLIB_COMPATIBILITY_VERSION = "1.0";
 				MACOSX_DEPLOYMENT_TARGET = "10.9";
@@ -1097,20 +1097,20 @@
 					"geometry",
 					"camera",
 					"lighting",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
 					".",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
 					"/System/Library/Frameworks/");
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib");
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib");
 				OTHER_CFLAGS = (
 					"-pipe",
 					"-O2",
@@ -1141,8 +1141,8 @@
 						"-stdlib=libc++",
 						"-Wl,-rpath,@executable_path/../Frameworks",
 						"-mmacosx-version-min=10.9",
-						"-Wl,-rpath,/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-						"-F/Users/asif/Qt5.7.1/5.7/clang_64/lib");
+						"-Wl,-rpath,/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+						"-F/Users/Rahman/Qt5.7.1/5.7/clang_64/lib");
 				ARCHS = "x86_64";
 			};
 			name = "Debug";
@@ -1174,7 +1174,7 @@
 				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
 				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
 				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/asif/Documents/graphics/hw3/CS472.skel/";
+				SYMROOT = "/Users/Rahman/Documents/GitHub/graphics/hw3/CS472.skel/";
 				DYLIB_CURRENT_VERSION = "1.0.0";
 				DYLIB_COMPATIBILITY_VERSION = "1.0";
 				MACOSX_DEPLOYMENT_TARGET = "10.9";
@@ -1184,20 +1184,20 @@
 					"geometry",
 					"camera",
 					"lighting",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtOpenGL.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtWidgets.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtGui.framework/Headers",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib/QtCore.framework/Headers",
 					".",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
 					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AGL.framework/Headers",
-					"../../../../Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/mkspecs/macx-clang");
 				LIBRARY_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
 					"/System/Library/Frameworks/");
 				FRAMEWORK_SEARCH_PATHS = (
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-					"/Users/asif/Qt5.7.1/5.7/clang_64/lib");
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+					"/Users/Rahman/Qt5.7.1/5.7/clang_64/lib");
 				OTHER_CFLAGS = (
 					"-pipe",
 					"-O2",
@@ -1228,8 +1228,8 @@
 						"-stdlib=libc++",
 						"-Wl,-rpath,@executable_path/../Frameworks",
 						"-mmacosx-version-min=10.9",
-						"-Wl,-rpath,/Users/asif/Qt5.7.1/5.7/clang_64/lib",
-						"-F/Users/asif/Qt5.7.1/5.7/clang_64/lib");
+						"-Wl,-rpath,/Users/Rahman/Qt5.7.1/5.7/clang_64/lib",
+						"-F/Users/Rahman/Qt5.7.1/5.7/clang_64/lib");
 				ARCHS = "x86_64";
 			};
 			name = "Release";
@@ -1273,8 +1273,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"4A65E9F7827D85765EACFE57",
-				"2F3217B2661DB0FC55439272");
+				"F70EECE5C0F407ADE5B5F597",
+				"F5120FEBE5D2890395250703");
 			attributes = {
 				TargetAttributes = {
 				};
